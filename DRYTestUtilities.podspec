@@ -10,19 +10,11 @@
 Pod::Spec.new do |s|
   s.name             = "DRYTestUtilities"
   s.version          = "0.1.0"
-  s.summary          = "A short description of DRYTestUtilities."
-  s.description      = <<-DESC
-                       An optional longer description of DRYTestUtilities
-
-                       * Markdown format.
-                       * Don't worry about the indent, we strip it!
-                       DESC
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/DRYTestUtilities"
-  # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
+  s.summary          = "AppFoundry test utilities"
+  s.homepage         = "https://github.com/appfoundry/DRYTestUtilities"
   s.license          = 'MIT'
   s.author           = { "Michael Seghers" => "michael.seghers@ida-mediafoundry.be" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/DRYTestUtilities.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :git => "https://github.com/appfoundry/DRYTestUtilities.git", :tag => s.version.to_s }
 
   s.platform     = :ios, '7.0'
   s.requires_arc = true
