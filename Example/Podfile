@@ -3,7 +3,4 @@ source 'https://github.com/CocoaPods/Specs.git'
 
 target 'DRYTestUtilities', :exclusive => true do
   pod "DRYTestUtilities", :path => "../"
-
-  pod 'Specta'
-  pod 'Expecta'
 end
