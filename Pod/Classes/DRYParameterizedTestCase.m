@@ -19,7 +19,7 @@
     
     SEL parameterSel = @selector(parameters);
     if (![self respondsToSelector:parameterSel]) {
-        @throw [NSException exceptionWithName:@"DRYParameterizedTestCaseException" reason:[NSString stringWithFormat:@"You should provide a static method called %@ in your parametirzed test class %@!", NSStringFromSelector(parameterSel), self] userInfo:nil];
+        return nil;
     }
     
     
