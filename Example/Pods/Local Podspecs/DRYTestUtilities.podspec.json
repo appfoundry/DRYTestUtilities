@@ -1,16 +1,15 @@
 {
   "name": "DRYTestUtilities",
-  "version": "0.1.0",
-  "summary": "A short description of DRYTestUtilities.",
-  "description": "                       An optional longer description of DRYTestUtilities\n\n                       * Markdown format.\n                       * Don't worry about the indent, we strip it!\n",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/DRYTestUtilities",
+  "version": "0.1.1",
+  "summary": "AppFoundry test utilities",
+  "homepage": "https://github.com/appfoundry/DRYTestUtilities",
   "license": "MIT",
   "authors": {
     "Michael Seghers": "michael.seghers@ida-mediafoundry.be"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/DRYTestUtilities.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/appfoundry/DRYTestUtilities.git",
+    "tag": "0.1.1"
   },
   "platforms": {
     "ios": "7.0"
