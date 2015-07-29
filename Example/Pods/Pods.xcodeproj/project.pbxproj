@@ -7,77 +7,83 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1FEBE200DFD52A363DB2E55C /* DRYSimpleTestNameProvidingParameter.m in Sources */ = {isa = PBXBuildFile; fileRef = A604134FB0E5C52679ED76F7 /* DRYSimpleTestNameProvidingParameter.m */; };
-		235D659FBB4BDA6A6E9BA771 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 248F094BC0836197EE06E5AC /* Foundation.framework */; };
-		5F61BA1739D0067BFF36C8B2 /* Pods-DRYTestUtilities-DRYTestUtilities-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 244A7B1D9A6D79CEBC60AA27 /* Pods-DRYTestUtilities-DRYTestUtilities-dummy.m */; };
-		92312AEC472B513B0C6CD033 /* Pods-DRYTestUtilities-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C80C4D4399ED01A22ADD2E98 /* Pods-DRYTestUtilities-dummy.m */; };
-		BC864F568348DEFD47269E6F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 248F094BC0836197EE06E5AC /* Foundation.framework */; };
-		C22D3E1061D0903FB206B284 /* DRYSimpleTestNameProvidingParameter.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F0602473116E2A4CB71A761 /* DRYSimpleTestNameProvidingParameter.h */; };
-		CEC14720EE54864DBD6F4E23 /* DRYParameterizedTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = 916BF9C3CC3097094DF6361D /* DRYParameterizedTestCase.h */; };
-		DD7ED3512F34F6A6DD3D307F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4701EF8C88AD596096F77D7E /* XCTest.framework */; };
-		E1C6D322F08908BEAE6545D7 /* DRYParameterizedTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C3F6FC4F5517E5712EB3622 /* DRYParameterizedTestCase.m */; };
+		00237318A9C2893DA5BEE820 /* DRYParameterizedTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = B164C9F49D1899CEB360F711 /* DRYParameterizedTestCase.m */; };
+		1620CB0F3EA5D7C575B7472B /* DRYFakeHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C373DC5DEF2F9C69D6926149 /* DRYFakeHTTPSessionManager.m */; };
+		365E881832732CA59488B572 /* DRYSimpleTestNameProvidingParameter.h in Headers */ = {isa = PBXBuildFile; fileRef = 93B5B33CCAE465D8F678077C /* DRYSimpleTestNameProvidingParameter.h */; };
+		4447B8704F56E2108DF6AB38 /* DRYParameterizedTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = 864F663D0893448C808B19B9 /* DRYParameterizedTestCase.h */; };
+		4E7FD1B3B3F49E12B53B4B2B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1D31BC31D419AEBD0987CE6 /* Foundation.framework */; };
+		51FD551C2F0330BC9A4E113F /* Pods-DRYTestUtilities-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 69CBA6AD4E145C14C963E61B /* Pods-DRYTestUtilities-dummy.m */; };
+		6646E32C23CDFE285F2EB42C /* DRYHTTPSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BB2EC3656B88EAFB7B9D86B /* DRYHTTPSessionManager.h */; };
+		7636B01709CEB73C8E4AC216 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1D31BC31D419AEBD0987CE6 /* Foundation.framework */; };
+		849F6BDB2830A66D53A45AD0 /* DRYSimpleTestNameProvidingParameter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EA159F0E7D0B5D406BAD51C /* DRYSimpleTestNameProvidingParameter.m */; };
+		9E6658108AB45BACE22857C6 /* DRYFakeHTTPSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = C9B319F9721334A6A8394CD0 /* DRYFakeHTTPSessionManager.h */; };
+		BAADD2C1D0DBDC5BE4C6F3A0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F57E692F42F3D62769C4B08 /* XCTest.framework */; };
+		DA4F8468DFFE51674A4472A4 /* Pods-DRYTestUtilities-DRYTestUtilities-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 894D2658E5854AB6C63B1C3F /* Pods-DRYTestUtilities-DRYTestUtilities-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		182232EB68AC5076B1856891 /* PBXContainerItemProxy */ = {
+		136E43C5D5DB1F84563AEFC5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 8F5D85090853F56DFB7EF924 /* Project object */;
+			containerPortal = A3DB75CF7E3ABB34C6FE18A9 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 53A8EE2094E550CC72889EC8;
-			remoteInfo = "Pods-DRYTestUtilities-DRYTestUtilities";
-		};
-		298B3880D397F0F5B50EF6F7 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 8F5D85090853F56DFB7EF924 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B013723AD318F7F234B52E49;
+			remoteGlobalIDString = D8F796DDF649C2B98949E142;
 			remoteInfo = "Pods-DRYTestUtilities-DRYTestUtilities-DRYTestUtilities";
+		};
+		C5DB2620AB948BE7BF2A367B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A3DB75CF7E3ABB34C6FE18A9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D1A3928CA5EB5A9E1A882F0D;
+			remoteInfo = "Pods-DRYTestUtilities-DRYTestUtilities";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		244A7B1D9A6D79CEBC60AA27 /* Pods-DRYTestUtilities-DRYTestUtilities-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DRYTestUtilities-DRYTestUtilities-dummy.m"; sourceTree = "<group>"; };
-		248F094BC0836197EE06E5AC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		25495042DEC1C3B924D5C27D /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		392CF2340ECDDA2BE49D3C59 /* Pods-DRYTestUtilities-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DRYTestUtilities-acknowledgements.plist"; sourceTree = "<group>"; };
-		46AD7DE2BD7D2F90D993AF09 /* Pods-DRYTestUtilities.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DRYTestUtilities.release.xcconfig"; sourceTree = "<group>"; };
-		4701EF8C88AD596096F77D7E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		484B55EFF03C48B86EE2AFEE /* Pods-DRYTestUtilities-DRYTestUtilities-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DRYTestUtilities-DRYTestUtilities-prefix.pch"; sourceTree = "<group>"; };
-		5425351FE5F34CD8907646C6 /* Pods-DRYTestUtilities-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DRYTestUtilities-resources.sh"; sourceTree = "<group>"; };
-		60530017D02B494F85EBE21E /* Pods-DRYTestUtilities.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DRYTestUtilities.debug.xcconfig"; sourceTree = "<group>"; };
-		6794ACD0505A77E47C90C8B0 /* libPods-DRYTestUtilities.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DRYTestUtilities.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6F094AEB5238AA7617F78499 /* Pods-DRYTestUtilities-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DRYTestUtilities-environment.h"; sourceTree = "<group>"; };
-		7C3F6FC4F5517E5712EB3622 /* DRYParameterizedTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DRYParameterizedTestCase.m; sourceTree = "<group>"; };
-		7F0602473116E2A4CB71A761 /* DRYSimpleTestNameProvidingParameter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DRYSimpleTestNameProvidingParameter.h; sourceTree = "<group>"; };
-		916BF9C3CC3097094DF6361D /* DRYParameterizedTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DRYParameterizedTestCase.h; sourceTree = "<group>"; };
-		96E521036F7F63FDFBC4F02D /* Pods-DRYTestUtilities-DRYTestUtilities.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DRYTestUtilities-DRYTestUtilities.xcconfig"; sourceTree = "<group>"; };
-		A3249857AC5E27D28AD23AD8 /* Pods-DRYTestUtilities-DRYTestUtilities-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DRYTestUtilities-DRYTestUtilities-Private.xcconfig"; sourceTree = "<group>"; };
-		A604134FB0E5C52679ED76F7 /* DRYSimpleTestNameProvidingParameter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DRYSimpleTestNameProvidingParameter.m; sourceTree = "<group>"; };
-		A89F4F0BF716E44E5EF7353A /* libPods-DRYTestUtilities-DRYTestUtilities.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DRYTestUtilities-DRYTestUtilities.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C80C4D4399ED01A22ADD2E98 /* Pods-DRYTestUtilities-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DRYTestUtilities-dummy.m"; sourceTree = "<group>"; };
-		CBBFC8590BCA94D905DF95A3 /* Pods-DRYTestUtilities-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DRYTestUtilities-acknowledgements.markdown"; sourceTree = "<group>"; };
-		D7BC8182CA0D4717B28BDEE6 /* DRYTestUtilities.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DRYTestUtilities.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		0EA159F0E7D0B5D406BAD51C /* DRYSimpleTestNameProvidingParameter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DRYSimpleTestNameProvidingParameter.m; sourceTree = "<group>"; };
+		1BBAD19ABE5BC65096F2F21C /* Pods-DRYTestUtilities-DRYTestUtilities-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DRYTestUtilities-DRYTestUtilities-Private.xcconfig"; sourceTree = "<group>"; };
+		2BB2EC3656B88EAFB7B9D86B /* DRYHTTPSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DRYHTTPSessionManager.h; sourceTree = "<group>"; };
+		340A8FC8241F9FF593C42FA0 /* Pods-DRYTestUtilities-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DRYTestUtilities-environment.h"; sourceTree = "<group>"; };
+		45EB0C67F27419FB54CB538C /* libPods-DRYTestUtilities.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DRYTestUtilities.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E1D0D1630DB5B7FFBEEB744 /* Pods-DRYTestUtilities-DRYTestUtilities.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DRYTestUtilities-DRYTestUtilities.xcconfig"; sourceTree = "<group>"; };
+		5F57E692F42F3D62769C4B08 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		63DA435FE0D24A2AC0436440 /* Pods-DRYTestUtilities-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DRYTestUtilities-acknowledgements.markdown"; sourceTree = "<group>"; };
+		69CBA6AD4E145C14C963E61B /* Pods-DRYTestUtilities-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DRYTestUtilities-dummy.m"; sourceTree = "<group>"; };
+		727EFAE3341D670000CFE09B /* Pods-DRYTestUtilities-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DRYTestUtilities-acknowledgements.plist"; sourceTree = "<group>"; };
+		864F663D0893448C808B19B9 /* DRYParameterizedTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DRYParameterizedTestCase.h; sourceTree = "<group>"; };
+		894D2658E5854AB6C63B1C3F /* Pods-DRYTestUtilities-DRYTestUtilities-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DRYTestUtilities-DRYTestUtilities-dummy.m"; sourceTree = "<group>"; };
+		8F4B83B63F55A07201958B64 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93B5B33CCAE465D8F678077C /* DRYSimpleTestNameProvidingParameter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DRYSimpleTestNameProvidingParameter.h; sourceTree = "<group>"; };
+		95CFDD138F8B6B68FD4F348A /* Pods-DRYTestUtilities-DRYTestUtilities-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DRYTestUtilities-DRYTestUtilities-prefix.pch"; sourceTree = "<group>"; };
+		A5618531C50CED4C8B9068C3 /* Pods-DRYTestUtilities.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DRYTestUtilities.debug.xcconfig"; sourceTree = "<group>"; };
+		B164C9F49D1899CEB360F711 /* DRYParameterizedTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DRYParameterizedTestCase.m; sourceTree = "<group>"; };
+		B1D31BC31D419AEBD0987CE6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		B74B80B1B94157159020B9DE /* Pods-DRYTestUtilities-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DRYTestUtilities-resources.sh"; sourceTree = "<group>"; };
+		C373DC5DEF2F9C69D6926149 /* DRYFakeHTTPSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DRYFakeHTTPSessionManager.m; sourceTree = "<group>"; };
+		C9B319F9721334A6A8394CD0 /* DRYFakeHTTPSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DRYFakeHTTPSessionManager.h; sourceTree = "<group>"; };
+		DAF9CE27B329FEC8220D7F83 /* libPods-DRYTestUtilities-DRYTestUtilities.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DRYTestUtilities-DRYTestUtilities.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC3839AC9104D238604AF3B8 /* Pods-DRYTestUtilities.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DRYTestUtilities.release.xcconfig"; sourceTree = "<group>"; };
+		E1CBBC9E0FDE2A914E197E1E /* DRYTestUtilities.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DRYTestUtilities.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2272F4F789CF9C5B6BEED9D8 /* Frameworks */ = {
+		094B1A6784CF57C9F46C4A7B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				235D659FBB4BDA6A6E9BA771 /* Foundation.framework in Frameworks */,
-				DD7ED3512F34F6A6DD3D307F /* XCTest.framework in Frameworks */,
+				7636B01709CEB73C8E4AC216 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7BFC0908F710BE7B42BDDE34 /* Frameworks */ = {
+		B8EB95C38A3011CF2B34D8F1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BC864F568348DEFD47269E6F /* Foundation.framework in Frameworks */,
+				4E7FD1B3B3F49E12B53B4B2B /* Foundation.framework in Frameworks */,
+				BAADD2C1D0DBDC5BE4C6F3A0 /* XCTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E1E18B1CE5820C8FCBB9F7EE /* Frameworks */ = {
+		BEF2F259A5A96F1E78B4B055 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -87,173 +93,178 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		04A511FDAC57DFC9AB403F34 /* Pod */ = {
+		09C76EC94B6D536F86CEE9F0 = {
 			isa = PBXGroup;
 			children = (
-				250FDE3716F95C3DF26BCF23 /* Classes */,
+				8F4B83B63F55A07201958B64 /* Podfile */,
+				321089162F1916E8F730D2BB /* Development Pods */,
+				E98020DDD0127B3878D38F68 /* Frameworks */,
+				C7BE3415307E7B26C1B6320D /* Products */,
+				1BA99F5DA52BEC1081DF220D /* Targets Support Files */,
 			);
-			path = Pod;
 			sourceTree = "<group>";
 		};
-		250FDE3716F95C3DF26BCF23 /* Classes */ = {
+		18C384F958A8049623C45AA6 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				916BF9C3CC3097094DF6361D /* DRYParameterizedTestCase.h */,
-				7C3F6FC4F5517E5712EB3622 /* DRYParameterizedTestCase.m */,
-				7F0602473116E2A4CB71A761 /* DRYSimpleTestNameProvidingParameter.h */,
-				A604134FB0E5C52679ED76F7 /* DRYSimpleTestNameProvidingParameter.m */,
+				C9B319F9721334A6A8394CD0 /* DRYFakeHTTPSessionManager.h */,
+				C373DC5DEF2F9C69D6926149 /* DRYFakeHTTPSessionManager.m */,
+				2BB2EC3656B88EAFB7B9D86B /* DRYHTTPSessionManager.h */,
+				864F663D0893448C808B19B9 /* DRYParameterizedTestCase.h */,
+				B164C9F49D1899CEB360F711 /* DRYParameterizedTestCase.m */,
+				93B5B33CCAE465D8F678077C /* DRYSimpleTestNameProvidingParameter.h */,
+				0EA159F0E7D0B5D406BAD51C /* DRYSimpleTestNameProvidingParameter.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
 		};
-		2D2A62D4AA10DD17C11E05D4 /* Products */ = {
+		1BA99F5DA52BEC1081DF220D /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				D7BC8182CA0D4717B28BDEE6 /* DRYTestUtilities.bundle */,
-				6794ACD0505A77E47C90C8B0 /* libPods-DRYTestUtilities.a */,
-				A89F4F0BF716E44E5EF7353A /* libPods-DRYTestUtilities-DRYTestUtilities.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		58934209C7DD2DA857AB277E /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				248F094BC0836197EE06E5AC /* Foundation.framework */,
-				4701EF8C88AD596096F77D7E /* XCTest.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		62F865A6CD748B1C19BD5867 /* DRYTestUtilities */ = {
-			isa = PBXGroup;
-			children = (
-				04A511FDAC57DFC9AB403F34 /* Pod */,
-				E6E6E68C56EDF03C4056FB84 /* Support Files */,
-			);
-			name = DRYTestUtilities;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		7AFC6A5E98940E567EDB6CF8 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				F5708088CCD1B415E7E03F39 /* Pods-DRYTestUtilities */,
+				2563A615479A47F05D9911BD /* Pods-DRYTestUtilities */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		93167926A470EE968FBC0D78 = {
+		2563A615479A47F05D9911BD /* Pods-DRYTestUtilities */ = {
 			isa = PBXGroup;
 			children = (
-				25495042DEC1C3B924D5C27D /* Podfile */,
-				FDFB4D41ECA60D0697809837 /* Development Pods */,
-				BB3E2A4E514C8FA70F3455F4 /* Frameworks */,
-				2D2A62D4AA10DD17C11E05D4 /* Products */,
-				7AFC6A5E98940E567EDB6CF8 /* Targets Support Files */,
-			);
-			sourceTree = "<group>";
-		};
-		BB3E2A4E514C8FA70F3455F4 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				58934209C7DD2DA857AB277E /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		E6E6E68C56EDF03C4056FB84 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				96E521036F7F63FDFBC4F02D /* Pods-DRYTestUtilities-DRYTestUtilities.xcconfig */,
-				A3249857AC5E27D28AD23AD8 /* Pods-DRYTestUtilities-DRYTestUtilities-Private.xcconfig */,
-				244A7B1D9A6D79CEBC60AA27 /* Pods-DRYTestUtilities-DRYTestUtilities-dummy.m */,
-				484B55EFF03C48B86EE2AFEE /* Pods-DRYTestUtilities-DRYTestUtilities-prefix.pch */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/Pods-DRYTestUtilities-DRYTestUtilities";
-			sourceTree = "<group>";
-		};
-		F5708088CCD1B415E7E03F39 /* Pods-DRYTestUtilities */ = {
-			isa = PBXGroup;
-			children = (
-				CBBFC8590BCA94D905DF95A3 /* Pods-DRYTestUtilities-acknowledgements.markdown */,
-				392CF2340ECDDA2BE49D3C59 /* Pods-DRYTestUtilities-acknowledgements.plist */,
-				C80C4D4399ED01A22ADD2E98 /* Pods-DRYTestUtilities-dummy.m */,
-				6F094AEB5238AA7617F78499 /* Pods-DRYTestUtilities-environment.h */,
-				5425351FE5F34CD8907646C6 /* Pods-DRYTestUtilities-resources.sh */,
-				60530017D02B494F85EBE21E /* Pods-DRYTestUtilities.debug.xcconfig */,
-				46AD7DE2BD7D2F90D993AF09 /* Pods-DRYTestUtilities.release.xcconfig */,
+				63DA435FE0D24A2AC0436440 /* Pods-DRYTestUtilities-acknowledgements.markdown */,
+				727EFAE3341D670000CFE09B /* Pods-DRYTestUtilities-acknowledgements.plist */,
+				69CBA6AD4E145C14C963E61B /* Pods-DRYTestUtilities-dummy.m */,
+				340A8FC8241F9FF593C42FA0 /* Pods-DRYTestUtilities-environment.h */,
+				B74B80B1B94157159020B9DE /* Pods-DRYTestUtilities-resources.sh */,
+				A5618531C50CED4C8B9068C3 /* Pods-DRYTestUtilities.debug.xcconfig */,
+				DC3839AC9104D238604AF3B8 /* Pods-DRYTestUtilities.release.xcconfig */,
 			);
 			name = "Pods-DRYTestUtilities";
 			path = "Target Support Files/Pods-DRYTestUtilities";
 			sourceTree = "<group>";
 		};
-		FDFB4D41ECA60D0697809837 /* Development Pods */ = {
+		321089162F1916E8F730D2BB /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				62F865A6CD748B1C19BD5867 /* DRYTestUtilities */,
+				91EE182A94FA4C37E6B934CB /* DRYTestUtilities */,
 			);
 			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		8766D4ED51AF7F5EFEFF269E /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				18C384F958A8049623C45AA6 /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		8AD4E353FA6E02799243F658 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				B1D31BC31D419AEBD0987CE6 /* Foundation.framework */,
+				5F57E692F42F3D62769C4B08 /* XCTest.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		91EE182A94FA4C37E6B934CB /* DRYTestUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				8766D4ED51AF7F5EFEFF269E /* Pod */,
+				A4254275889AA4CF17793A49 /* Support Files */,
+			);
+			name = DRYTestUtilities;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		A4254275889AA4CF17793A49 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4E1D0D1630DB5B7FFBEEB744 /* Pods-DRYTestUtilities-DRYTestUtilities.xcconfig */,
+				1BBAD19ABE5BC65096F2F21C /* Pods-DRYTestUtilities-DRYTestUtilities-Private.xcconfig */,
+				894D2658E5854AB6C63B1C3F /* Pods-DRYTestUtilities-DRYTestUtilities-dummy.m */,
+				95CFDD138F8B6B68FD4F348A /* Pods-DRYTestUtilities-DRYTestUtilities-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Pods-DRYTestUtilities-DRYTestUtilities";
+			sourceTree = "<group>";
+		};
+		C7BE3415307E7B26C1B6320D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E1CBBC9E0FDE2A914E197E1E /* DRYTestUtilities.bundle */,
+				45EB0C67F27419FB54CB538C /* libPods-DRYTestUtilities.a */,
+				DAF9CE27B329FEC8220D7F83 /* libPods-DRYTestUtilities-DRYTestUtilities.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E98020DDD0127B3878D38F68 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8AD4E353FA6E02799243F658 /* iOS */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		91B4313DF83DE24006F1D0D9 /* Headers */ = {
+		32359A88510CB693CD07B410 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEC14720EE54864DBD6F4E23 /* DRYParameterizedTestCase.h in Headers */,
-				C22D3E1061D0903FB206B284 /* DRYSimpleTestNameProvidingParameter.h in Headers */,
+				9E6658108AB45BACE22857C6 /* DRYFakeHTTPSessionManager.h in Headers */,
+				6646E32C23CDFE285F2EB42C /* DRYHTTPSessionManager.h in Headers */,
+				4447B8704F56E2108DF6AB38 /* DRYParameterizedTestCase.h in Headers */,
+				365E881832732CA59488B572 /* DRYSimpleTestNameProvidingParameter.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		53A8EE2094E550CC72889EC8 /* Pods-DRYTestUtilities-DRYTestUtilities */ = {
+		9E989A0C09B84D7301DBAFC0 /* Pods-DRYTestUtilities */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 72A356BB3EF46AFEEA5C272F /* Build configuration list for PBXNativeTarget "Pods-DRYTestUtilities-DRYTestUtilities" */;
+			buildConfigurationList = 62BFCD179B72A6E4AD023355 /* Build configuration list for PBXNativeTarget "Pods-DRYTestUtilities" */;
 			buildPhases = (
-				7B20ECA2AD53B42B2F9AE331 /* Sources */,
-				2272F4F789CF9C5B6BEED9D8 /* Frameworks */,
-				91B4313DF83DE24006F1D0D9 /* Headers */,
+				8721F0127C9EA69101E14B69 /* Sources */,
+				094B1A6784CF57C9F46C4A7B /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				3FDDF70E78CAD03AF65C622A /* PBXTargetDependency */,
-			);
-			name = "Pods-DRYTestUtilities-DRYTestUtilities";
-			productName = "Pods-DRYTestUtilities-DRYTestUtilities";
-			productReference = A89F4F0BF716E44E5EF7353A /* libPods-DRYTestUtilities-DRYTestUtilities.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		8C476E5B4A79DB558766DA66 /* Pods-DRYTestUtilities */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B6B0092B1D864CBF1D3327E3 /* Build configuration list for PBXNativeTarget "Pods-DRYTestUtilities" */;
-			buildPhases = (
-				2FD20CC3A13F171EC4D8824D /* Sources */,
-				7BFC0908F710BE7B42BDDE34 /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				61330666F2A1B7504FA56D17 /* PBXTargetDependency */,
+				806251B793D9A6112E202618 /* PBXTargetDependency */,
 			);
 			name = "Pods-DRYTestUtilities";
 			productName = "Pods-DRYTestUtilities";
-			productReference = 6794ACD0505A77E47C90C8B0 /* libPods-DRYTestUtilities.a */;
+			productReference = 45EB0C67F27419FB54CB538C /* libPods-DRYTestUtilities.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		B013723AD318F7F234B52E49 /* Pods-DRYTestUtilities-DRYTestUtilities-DRYTestUtilities */ = {
+		D1A3928CA5EB5A9E1A882F0D /* Pods-DRYTestUtilities-DRYTestUtilities */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D961D4A756CFBC5C298897AF /* Build configuration list for PBXNativeTarget "Pods-DRYTestUtilities-DRYTestUtilities-DRYTestUtilities" */;
+			buildConfigurationList = 5E473648BDCC5C9E495A091F /* Build configuration list for PBXNativeTarget "Pods-DRYTestUtilities-DRYTestUtilities" */;
 			buildPhases = (
-				5068A3D00F322FFED9BC6769 /* Sources */,
-				E1E18B1CE5820C8FCBB9F7EE /* Frameworks */,
-				DDEE12AD0F935948C1EEDEB8 /* Resources */,
+				39626E6B3D6B32A3215B0CA5 /* Sources */,
+				B8EB95C38A3011CF2B34D8F1 /* Frameworks */,
+				32359A88510CB693CD07B410 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				172B979BC0F7722440A66DF0 /* PBXTargetDependency */,
+			);
+			name = "Pods-DRYTestUtilities-DRYTestUtilities";
+			productName = "Pods-DRYTestUtilities-DRYTestUtilities";
+			productReference = DAF9CE27B329FEC8220D7F83 /* libPods-DRYTestUtilities-DRYTestUtilities.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		D8F796DDF649C2B98949E142 /* Pods-DRYTestUtilities-DRYTestUtilities-DRYTestUtilities */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05F4F113EBA8A663D94F3895 /* Build configuration list for PBXNativeTarget "Pods-DRYTestUtilities-DRYTestUtilities-DRYTestUtilities" */;
+			buildPhases = (
+				1D3E20C4B02BDD2F30F4A428 /* Sources */,
+				BEF2F259A5A96F1E78B4B055 /* Frameworks */,
+				CDF45115C3F60B0CC0A3C447 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -261,38 +272,38 @@
 			);
 			name = "Pods-DRYTestUtilities-DRYTestUtilities-DRYTestUtilities";
 			productName = "Pods-DRYTestUtilities-DRYTestUtilities-DRYTestUtilities";
-			productReference = D7BC8182CA0D4717B28BDEE6 /* DRYTestUtilities.bundle */;
+			productReference = E1CBBC9E0FDE2A914E197E1E /* DRYTestUtilities.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		8F5D85090853F56DFB7EF924 /* Project object */ = {
+		A3DB75CF7E3ABB34C6FE18A9 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0510;
+				LastUpgradeCheck = 0640;
 			};
-			buildConfigurationList = C41B91E8B016D21571B50020 /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = 095D2B18C237B3F321E886F8 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 93167926A470EE968FBC0D78;
-			productRefGroup = 2D2A62D4AA10DD17C11E05D4 /* Products */;
+			mainGroup = 09C76EC94B6D536F86CEE9F0;
+			productRefGroup = C7BE3415307E7B26C1B6320D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8C476E5B4A79DB558766DA66 /* Pods-DRYTestUtilities */,
-				53A8EE2094E550CC72889EC8 /* Pods-DRYTestUtilities-DRYTestUtilities */,
-				B013723AD318F7F234B52E49 /* Pods-DRYTestUtilities-DRYTestUtilities-DRYTestUtilities */,
+				9E989A0C09B84D7301DBAFC0 /* Pods-DRYTestUtilities */,
+				D1A3928CA5EB5A9E1A882F0D /* Pods-DRYTestUtilities-DRYTestUtilities */,
+				D8F796DDF649C2B98949E142 /* Pods-DRYTestUtilities-DRYTestUtilities-DRYTestUtilities */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		DDEE12AD0F935948C1EEDEB8 /* Resources */ = {
+		CDF45115C3F60B0CC0A3C447 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -302,50 +313,51 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		2FD20CC3A13F171EC4D8824D /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				92312AEC472B513B0C6CD033 /* Pods-DRYTestUtilities-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5068A3D00F322FFED9BC6769 /* Sources */ = {
+		1D3E20C4B02BDD2F30F4A428 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7B20ECA2AD53B42B2F9AE331 /* Sources */ = {
+		39626E6B3D6B32A3215B0CA5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E1C6D322F08908BEAE6545D7 /* DRYParameterizedTestCase.m in Sources */,
-				1FEBE200DFD52A363DB2E55C /* DRYSimpleTestNameProvidingParameter.m in Sources */,
-				5F61BA1739D0067BFF36C8B2 /* Pods-DRYTestUtilities-DRYTestUtilities-dummy.m in Sources */,
+				1620CB0F3EA5D7C575B7472B /* DRYFakeHTTPSessionManager.m in Sources */,
+				00237318A9C2893DA5BEE820 /* DRYParameterizedTestCase.m in Sources */,
+				849F6BDB2830A66D53A45AD0 /* DRYSimpleTestNameProvidingParameter.m in Sources */,
+				DA4F8468DFFE51674A4472A4 /* Pods-DRYTestUtilities-DRYTestUtilities-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8721F0127C9EA69101E14B69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51FD551C2F0330BC9A4E113F /* Pods-DRYTestUtilities-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		3FDDF70E78CAD03AF65C622A /* PBXTargetDependency */ = {
+		172B979BC0F7722440A66DF0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-DRYTestUtilities-DRYTestUtilities-DRYTestUtilities";
-			target = B013723AD318F7F234B52E49 /* Pods-DRYTestUtilities-DRYTestUtilities-DRYTestUtilities */;
-			targetProxy = 298B3880D397F0F5B50EF6F7 /* PBXContainerItemProxy */;
+			target = D8F796DDF649C2B98949E142 /* Pods-DRYTestUtilities-DRYTestUtilities-DRYTestUtilities */;
+			targetProxy = 136E43C5D5DB1F84563AEFC5 /* PBXContainerItemProxy */;
 		};
-		61330666F2A1B7504FA56D17 /* PBXTargetDependency */ = {
+		806251B793D9A6112E202618 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-DRYTestUtilities-DRYTestUtilities";
-			target = 53A8EE2094E550CC72889EC8 /* Pods-DRYTestUtilities-DRYTestUtilities */;
-			targetProxy = 182232EB68AC5076B1856891 /* PBXContainerItemProxy */;
+			target = D1A3928CA5EB5A9E1A882F0D /* Pods-DRYTestUtilities-DRYTestUtilities */;
+			targetProxy = C5DB2620AB948BE7BF2A367B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		11B4E297A1FA9F57C825CBD1 /* Debug */ = {
+		3B71794151ED0DC2EAE5CABB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -384,40 +396,9 @@
 			};
 			name = Debug;
 		};
-		2D86620FCB20C275179E665F /* Release */ = {
+		4E99A29B8E53541EFABFF16F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 46AD7DE2BD7D2F90D993AF09 /* Pods-DRYTestUtilities.release.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		50E68F03F44050468E90DDCE /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A3249857AC5E27D28AD23AD8 /* Pods-DRYTestUtilities-DRYTestUtilities-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-DRYTestUtilities-DRYTestUtilities/Pods-DRYTestUtilities-DRYTestUtilities-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		6CE9AE8B8F5E225DFB911654 /* Debug */ = {
-			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BBAD19ABE5BC65096F2F21C /* Pods-DRYTestUtilities-DRYTestUtilities-Private.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				PRODUCT_NAME = DRYTestUtilities;
@@ -427,9 +408,21 @@
 			};
 			name = Debug;
 		};
-		71634692677472886B96BAF9 /* Debug */ = {
+		60596A8D02E6A1457D397E72 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 60530017D02B494F85EBE21E /* Pods-DRYTestUtilities.debug.xcconfig */;
+			baseConfigurationReference = 1BBAD19ABE5BC65096F2F21C /* Pods-DRYTestUtilities-DRYTestUtilities-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = DRYTestUtilities;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		79ADBA2E6AB3C4F72516FA52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5618531C50CED4C8B9068C3 /* Pods-DRYTestUtilities.debug.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
@@ -443,18 +436,23 @@
 			};
 			name = Debug;
 		};
-		9CD89E41E828E5C756E30377 /* Release */ = {
+		87492CB2F2A0C7007ECA7E0F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BBAD19ABE5BC65096F2F21C /* Pods-DRYTestUtilities-DRYTestUtilities-Private.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = DRYTestUtilities;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-DRYTestUtilities-DRYTestUtilities/Pods-DRYTestUtilities-DRYTestUtilities-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
 			};
 			name = Release;
 		};
-		AC1CD1F9A1DE045D61204CC2 /* Release */ = {
+		E36EA0D20B4E2232AA078B37 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -488,9 +486,25 @@
 			};
 			name = Release;
 		};
-		FDDD4FE36CE58DFA3A9074C6 /* Debug */ = {
+		E443F4FF1C156529E3D92336 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A3249857AC5E27D28AD23AD8 /* Pods-DRYTestUtilities-DRYTestUtilities-Private.xcconfig */;
+			baseConfigurationReference = DC3839AC9104D238604AF3B8 /* Pods-DRYTestUtilities.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		E5EAF5A09BDD1A4CB7E45681 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BBAD19ABE5BC65096F2F21C /* Pods-DRYTestUtilities-DRYTestUtilities-Private.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/Pods-DRYTestUtilities-DRYTestUtilities/Pods-DRYTestUtilities-DRYTestUtilities-prefix.pch";
@@ -507,43 +521,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		72A356BB3EF46AFEEA5C272F /* Build configuration list for PBXNativeTarget "Pods-DRYTestUtilities-DRYTestUtilities" */ = {
+		05F4F113EBA8A663D94F3895 /* Build configuration list for PBXNativeTarget "Pods-DRYTestUtilities-DRYTestUtilities-DRYTestUtilities" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FDDD4FE36CE58DFA3A9074C6 /* Debug */,
-				50E68F03F44050468E90DDCE /* Release */,
+				4E99A29B8E53541EFABFF16F /* Debug */,
+				60596A8D02E6A1457D397E72 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B6B0092B1D864CBF1D3327E3 /* Build configuration list for PBXNativeTarget "Pods-DRYTestUtilities" */ = {
+		095D2B18C237B3F321E886F8 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				71634692677472886B96BAF9 /* Debug */,
-				2D86620FCB20C275179E665F /* Release */,
+				3B71794151ED0DC2EAE5CABB /* Debug */,
+				E36EA0D20B4E2232AA078B37 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C41B91E8B016D21571B50020 /* Build configuration list for PBXProject "Pods" */ = {
+		5E473648BDCC5C9E495A091F /* Build configuration list for PBXNativeTarget "Pods-DRYTestUtilities-DRYTestUtilities" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				11B4E297A1FA9F57C825CBD1 /* Debug */,
-				AC1CD1F9A1DE045D61204CC2 /* Release */,
+				E5EAF5A09BDD1A4CB7E45681 /* Debug */,
+				87492CB2F2A0C7007ECA7E0F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D961D4A756CFBC5C298897AF /* Build configuration list for PBXNativeTarget "Pods-DRYTestUtilities-DRYTestUtilities-DRYTestUtilities" */ = {
+		62BFCD179B72A6E4AD023355 /* Build configuration list for PBXNativeTarget "Pods-DRYTestUtilities" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6CE9AE8B8F5E225DFB911654 /* Debug */,
-				9CD89E41E828E5C756E30377 /* Release */,
+				79ADBA2E6AB3C4F72516FA52 /* Debug */,
+				E443F4FF1C156529E3D92336 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 8F5D85090853F56DFB7EF924 /* Project object */;
+	rootObject = A3DB75CF7E3ABB34C6FE18A9 /* Project object */;
 }

@@ -15,6 +15,7 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		A9E91938565E5C25382D5484 /* libPods-DRYTestUtilities.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 60AEEE4EC9B473FFE25E5036 /* libPods-DRYTestUtilities.a */; };
+		E59C7B101B667DD200112175 /* DRYFakeHTTPSessionManagerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E59C7B0F1B667DD200112175 /* DRYFakeHTTPSessionManagerTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		BF7CEFEF226FE4A798F065E7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		CEA0555D307D748E8EDC8BBE /* Pods-DRYTestUtilities.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DRYTestUtilities.release.xcconfig"; path = "Pods/Target Support Files/Pods-DRYTestUtilities/Pods-DRYTestUtilities.release.xcconfig"; sourceTree = "<group>"; };
 		E27B611C1D356821656C8A5F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		E59C7B0F1B667DD200112175 /* DRYFakeHTTPSessionManagerTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DRYFakeHTTPSessionManagerTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 				2753AAC11AD493D800EB5D16 /* DRYArrayParametersTests.m */,
 				2753AAC31AD4953100EB5D16 /* DRYDictionaryParamersTest.m */,
 				2753AAC51AD4961200EB5D16 /* DRYParameterProviderParametersTests.m */,
+				E59C7B0F1B667DD200112175 /* DRYFakeHTTPSessionManagerTest.m */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
@@ -232,6 +235,7 @@
 				2753AAC41AD4953100EB5D16 /* DRYDictionaryParamersTest.m in Sources */,
 				2753AAC61AD4961200EB5D16 /* DRYParameterProviderParametersTests.m in Sources */,
 				2753AAC21AD493D800EB5D16 /* DRYArrayParametersTests.m in Sources */,
+				E59C7B101B667DD200112175 /* DRYFakeHTTPSessionManagerTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
