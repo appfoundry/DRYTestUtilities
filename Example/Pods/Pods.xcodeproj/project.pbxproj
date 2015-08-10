@@ -7,133 +7,133 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		05589673E9309B8A7888A16C7BACB519 /* UIView+DRYLoadFromNib.m in Sources */ = {isa = PBXBuildFile; fileRef = 21948B8654875EB26244F346F5C4575A /* UIView+DRYLoadFromNib.m */; };
-		078FA5A54D2FB50DB9E31E0203F706B6 /* DRYSimpleTestNameProvidingParameter.m in Sources */ = {isa = PBXBuildFile; fileRef = 239727E76470447CBEBED1482D530442 /* DRYSimpleTestNameProvidingParameter.m */; };
-		214ABBC7163B84155AA91D586CCDD334 /* NSString+DRYHex.m in Sources */ = {isa = PBXBuildFile; fileRef = C75214A1C3FF9BB01C18B36751FC0F63 /* NSString+DRYHex.m */; };
-		2CA574DFB565C098E1A25B5630DDDF03 /* NSString+DRYUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 28BF824DD0B37E2CD506DB48D8890D13 /* NSString+DRYUtil.m */; };
-		3605D35864C77E67589C8CFBCEE68200 /* DRYSecurityCredentials.m in Sources */ = {isa = PBXBuildFile; fileRef = F12658356A4A8AD8D66AFD759590795E /* DRYSecurityCredentials.m */; };
-		378BAA2E3331E292BFADB678B9A4E96E /* NSString+DRYTemplateReplacement.m in Sources */ = {isa = PBXBuildFile; fileRef = E4A56953320C388CA5E3E0199BF3E3DD /* NSString+DRYTemplateReplacement.m */; };
-		37F3D977A465115641A107243739F2B4 /* DRYResourceReader.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F99D8230B5EDC589DB2B8B027D473B6 /* DRYResourceReader.h */; };
-		3AE6BC5C9B066B0125A2AEAC733F3183 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0858CAD7ECDF71C4189F0FB2DB70FDBD /* Foundation.framework */; };
-		400148182DC32FBE25FD6B63B6398561 /* DRYCoreDataTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4956B4B055B0343C1498FAFBBDAF376 /* DRYCoreDataTableViewController.m */; };
-		4A079CCB69824FCC160643E5D9022F19 /* DRYSecurityCredentials.h in Headers */ = {isa = PBXBuildFile; fileRef = B2718C26DD3BB28FAEBED95B8BC9C482 /* DRYSecurityCredentials.h */; };
-		6BF87373081A9748B803E19507BBBF44 /* DRYPlistResourceReader.h in Headers */ = {isa = PBXBuildFile; fileRef = B85C3A46E479833D64E3C50EFA9592CE /* DRYPlistResourceReader.h */; };
-		7287D850BA42CDB2B2CB627B984709D6 /* NSString+DRYUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = DEBC9F6E97E305BE7D929FFAA66F20D9 /* NSString+DRYUtil.h */; };
-		74DBC38FCB3353A162616321C982E8C1 /* DRYSecurityStoreWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 888C668CB0F265F5669C3DEBAB260080 /* DRYSecurityStoreWrapper.m */; };
-		87BA6D067FA2184E16A8F852407A209B /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B046DAB5A43320CBD072BB1F7B97FF0D /* XCTest.framework */; };
-		8C1467D238F6A7763F9E1C6721803205 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0858CAD7ECDF71C4189F0FB2DB70FDBD /* Foundation.framework */; };
-		9015B45BEF38443477D5DAD2EF8D28CC /* NSNull+DRYNSNullSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = BA98E4970CB5679946562D733E9E6D74 /* NSNull+DRYNSNullSupport.h */; };
-		9612F8ABE5EC6A17BB91E70BF40E2422 /* DRYSimpleTestNameProvidingParameter.h in Headers */ = {isa = PBXBuildFile; fileRef = CD2AC0F08F4F0164A762CFA6B1672548 /* DRYSimpleTestNameProvidingParameter.h */; };
-		98A59E2A12A3DD9E3A1F31018643E0A5 /* DRYUtilities-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 92436F48C1782617DAB7A7DDE317C5F3 /* DRYUtilities-dummy.m */; };
-		9F5EB1DEC48C782F33B7D3A7E9F68DF0 /* DRYBaseDynamicPropertyProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = B44F46A5B0109CDB8AFEFC16BB7C470D /* DRYBaseDynamicPropertyProvider.m */; };
-		A436DB1CB1520207C3527CC8C9E7DA92 /* DRYSecurityStoreWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = D19BFF4042882A7E4D5DF55D2DB4D852 /* DRYSecurityStoreWrapper.h */; };
-		B2426995F25EAE06542B506889638DAF /* NSObject+DRYNSNullSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 88EFCD34C09D70546160E0E6617A96BD /* NSObject+DRYNSNullSupport.m */; };
-		B9FF45291704C2705CF02E7D2EA0CE96 /* NSString+DRYHex.h in Headers */ = {isa = PBXBuildFile; fileRef = BEB6580A0E4AFBAD44148C7D01E04A22 /* NSString+DRYHex.h */; };
-		C4951953CD6C4D863AFA39AEF1776AA3 /* NSString+DRYTemplateReplacement.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F9F0D9F5422E6A4314D32B06F8A46BF /* NSString+DRYTemplateReplacement.h */; };
-		C5D16FD49BDD3B414B2713537FF0DBEE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0858CAD7ECDF71C4189F0FB2DB70FDBD /* Foundation.framework */; };
-		D49FAB54A325BC453CD1CEF2633068EC /* DRYFakeHTTPSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D1F50F30C4814C5660BC319761660B6 /* DRYFakeHTTPSessionManager.h */; };
-		D6587FBBEF3DAF4CD0D9E69E5FA66CAC /* DRYParameterizedTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = 090A37AA2F3A0E2C1F47195F929FBA3B /* DRYParameterizedTestCase.h */; };
-		D7BCEF5DB6F9F25E23D35A78415E31FB /* DRYParameterizedTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C2A594ED22C637DA1616E85CB0B4BD7 /* DRYParameterizedTestCase.m */; };
-		E0DABD57B6ED3F58D9F477F575648412 /* DRYHTTPSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = A883540AD6DE44963955CE7FAB6ECD2C /* DRYHTTPSessionManager.h */; };
-		E58F70107F687C08ABB7583B8BA78E3D /* DRYFakeHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F84C3BCB969149F9C7ACB83B52C47D8 /* DRYFakeHTTPSessionManager.m */; };
-		E7F52999889B4624341253A44D1FD647 /* DRYBaseDynamicPropertyProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 10C54AA489FEC3B62384B8A770D826B3 /* DRYBaseDynamicPropertyProvider.h */; };
-		E8C2CFA7DC4F038140463331AE97CD79 /* UIView+DRYLoadFromNib.h in Headers */ = {isa = PBXBuildFile; fileRef = E84B12A07D362081A36C1B7FFFEFB764 /* UIView+DRYLoadFromNib.h */; };
-		E9F9FA0AFE16A3F1E28F6AFAAD037A13 /* DRYPlistResourceReader.m in Sources */ = {isa = PBXBuildFile; fileRef = CF42EF3E0D5F32EA0E11DC57053719AD /* DRYPlistResourceReader.m */; };
+		0964A85AB8A4F8A730BD9433DE0224FE /* DRYCoreDataTableViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B06E212188185F871A73D85451CFF13 /* DRYCoreDataTableViewController.h */; };
+		0DF1C086290DB2F6DD1F9D65194B8C2D /* DRYSimpleTestNameProvidingParameter.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C55CFDF47513A4D158B5E790E3305A9 /* DRYSimpleTestNameProvidingParameter.h */; };
+		19CD35AC61765720423B3CDE68792F13 /* DRYCoreDataTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2C85F6C8EB54C512823C1B0ADAB83C3 /* DRYCoreDataTableViewController.m */; };
+		1C44A6AE87AA1EE46BDB5C9D6ACA2783 /* DRYPlistResourceReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 91EFD23C2FFB0B86A39034C8AA9FF426 /* DRYPlistResourceReader.m */; };
+		2387A78FF4DE5FF9E22BF38948DCBE6B /* NSString+DRYUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 82A881A98C1957300CF63EF62A36083C /* NSString+DRYUtil.m */; };
+		28304778512EA1B9FC2D43C0F678D62C /* DRYSecurityCredentials.h in Headers */ = {isa = PBXBuildFile; fileRef = C8B211D5AC1015AA5BC34ACFAD6BCBEE /* DRYSecurityCredentials.h */; };
+		2FDE4F50FB2C3D659F9C69B0A0A7CD2D /* NSObject+DRYNSNullSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = CF7890488B112B59D6FA1C034FDD2814 /* NSObject+DRYNSNullSupport.m */; };
+		3B552408BBE7305FBA1CDE9E57469430 /* DRYSecurityCredentials.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D628537C4905BF62966082216C57410 /* DRYSecurityCredentials.m */; };
+		4744F066ED3609F28B3A993846490BFC /* NSObject+DRYNSNullSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = D2345596375806E2D109A2E360C21F39 /* NSObject+DRYNSNullSupport.h */; };
+		5F4892B211C1FD3C75CD6E04E4AD8437 /* DRYPlistResourceReader.h in Headers */ = {isa = PBXBuildFile; fileRef = B8F8C003C8D2BC6276C902834940775E /* DRYPlistResourceReader.h */; };
+		67F60CB849FFF07C8E438BD1B232A47C /* DRYResourceReader.h in Headers */ = {isa = PBXBuildFile; fileRef = 4EE900155431A7928C9FB59317F70129 /* DRYResourceReader.h */; };
+		69A644DDF6808EC82B27F3394B183389 /* DRYParameterizedTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 24AE2BB91558F1C5C02F4B8E245CBF82 /* DRYParameterizedTestCase.m */; };
+		715EA2B241F6B0CFFF2001551C613E32 /* DRYFakeHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 506E4119F80FC4445B33432853756633 /* DRYFakeHTTPSessionManager.m */; };
+		7211E4A4118DDCFAFA41C451E62FDDC1 /* NSNull+DRYNSNullSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C5E389BD6B7A25089197AD70C6DDF87 /* NSNull+DRYNSNullSupport.h */; };
+		75A9A6F75264A016329CA071C950FE28 /* NSString+DRYUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = B95C8976D6B107F8EF0AED1F42902391 /* NSString+DRYUtil.h */; };
+		7C91530B67AEF365C3A0D3738E090CF9 /* NSNull+DRYNSNullSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BE9600631EBA8F88DFA45E221D6A8B1 /* NSNull+DRYNSNullSupport.m */; };
+		7F9EA1C80C8BA795226C9C0F154B57AE /* DRYFakeHTTPSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 24631C377F5BA3F741ECF97D8FDE2C36 /* DRYFakeHTTPSessionManager.h */; };
+		8C1467D238F6A7763F9E1C6721803205 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6581CCF28710EBE69D491E41D86BD2DD /* Foundation.framework */; };
+		8CACE814EFC8325F08BF1A040C265D15 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6581CCF28710EBE69D491E41D86BD2DD /* Foundation.framework */; };
+		909AE70FBA12DADF047E5D1E8A44DF52 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8867BA9B1C0DC66AB7B390A48EFB88F /* XCTest.framework */; };
+		918A227577A3263313D34B1B4E98F6E6 /* NSString+DRYTemplateReplacement.m in Sources */ = {isa = PBXBuildFile; fileRef = B1F60AA624E506957DC53071D03AF1EE /* NSString+DRYTemplateReplacement.m */; };
+		9B0407B55EB824DB0043ED75BA85BAB7 /* DRYTestUtilities-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CF1527CDE978321300BE361517E3AC0 /* DRYTestUtilities-dummy.m */; };
+		A2E20D153260890E03F7BC9A33EDA5A8 /* NSString+DRYHex.m in Sources */ = {isa = PBXBuildFile; fileRef = 6032E76B4DFE8E7626875068F052A791 /* NSString+DRYHex.m */; };
+		A5A1010B3027A75629891D87BB39AC22 /* NSString+DRYHex.h in Headers */ = {isa = PBXBuildFile; fileRef = F588591EE4748A422B15A360E601466D /* NSString+DRYHex.h */; };
+		A98959EF36CB8F3EBA10A1C2FF39B4BF /* DRYSecurityStoreWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 4465385DB1FEC12B556A52DB6D217DB9 /* DRYSecurityStoreWrapper.m */; };
+		AB21F1EE8CE32891F5D7F3B1C7757833 /* DRYBaseDynamicPropertyProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = FAD19DDBFF34211E8544C1DFBB471020 /* DRYBaseDynamicPropertyProvider.h */; };
+		B12E45627B58D89CB45B0F849463D477 /* DRYSecurityStoreWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D743F2F32536C1F3E5DB4CED5BED5B9 /* DRYSecurityStoreWrapper.h */; };
+		B34DFF74ABFE8164132CD92EF943F78F /* DRYSimpleTestNameProvidingParameter.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F3845160E45C29A0B080CDE0E3FA618 /* DRYSimpleTestNameProvidingParameter.m */; };
+		B50404267C9C29CAB5DFC8AD70EA2FFD /* UIView+DRYLoadFromNib.h in Headers */ = {isa = PBXBuildFile; fileRef = 07084D6C468D38341A5E475817BBD639 /* UIView+DRYLoadFromNib.h */; };
+		C0873A566A566C5DFC6BB28DDF733AF4 /* DRYBaseDynamicPropertyProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = E6D1DB38E76451CC1EA0C23DCB7383DF /* DRYBaseDynamicPropertyProvider.m */; };
+		C740A0A01BC59F5665C834825D629CB5 /* DRYUtilities-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C81C95D7A00135E9118F909CD17215A3 /* DRYUtilities-dummy.m */; };
+		DF81EC65893BAA7C6DCBE49C7B082F27 /* NSString+DRYTemplateReplacement.h in Headers */ = {isa = PBXBuildFile; fileRef = A9AEE26A8D97AAB86FD2C1D26B32BA7A /* NSString+DRYTemplateReplacement.h */; };
+		E07CAC2198858B366BAB037B93203A65 /* UIView+DRYLoadFromNib.m in Sources */ = {isa = PBXBuildFile; fileRef = B9FC07DC305D89648DB14602A4F8D29D /* UIView+DRYLoadFromNib.m */; };
+		EB38F04D0B7882DE8A05A6883C14E294 /* DRYParameterizedTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = 4990D40F870DB20EB4C931063AC8DE91 /* DRYParameterizedTestCase.h */; };
+		EC6A94BA140437CA28D6C2CCF597B668 /* DRYHTTPSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = CCE6E9DC9C64A6AC06546814EEA5CE31 /* DRYHTTPSessionManager.h */; };
 		ED49E791C0754A679508E263FD117ABC /* Pods-DRYTestUtilities-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 605A854FFDD678E7B1D40AAE0FAC1B60 /* Pods-DRYTestUtilities-dummy.m */; };
-		EFC054418AF3D923ED7D0F0ECFC392B7 /* DRYTestUtilities-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F62E9746543082B399918B88369BBA2 /* DRYTestUtilities-dummy.m */; };
-		F3E80AFAD9DF12CEE8DFF62698A1D1BD /* NSObject+DRYNSNullSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CE0CC73BE17DA0CBFD86E77A107CD27 /* NSObject+DRYNSNullSupport.h */; };
-		F6284AA8F96A90F32072300D9E4155FF /* NSNull+DRYNSNullSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 222880B7577C0433A694548582B0AF79 /* NSNull+DRYNSNullSupport.m */; };
-		F86037FD7F709502DE5D265E52B5A461 /* DRYCoreDataTableViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D0E8BA9316A7DC05B23FA8BFEFF1C5A /* DRYCoreDataTableViewController.h */; };
+		F2B9B489DC5A412415CB3E7233C88472 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6581CCF28710EBE69D491E41D86BD2DD /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		17775BC38C149C968B4B97465D5A9F87 /* PBXContainerItemProxy */ = {
+		0C423EFE0D9BB6CEE36D2B0079D6C4E6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = B342DA2C6D9011FF9EBD653E07F652DB;
-			remoteInfo = DRYTestUtilities;
-		};
-		29936987ADD72193FEEBC2AF10A0B0AC /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = CCC7EE5FA44281A2387A823CB2AE0837;
+			remoteGlobalIDString = 884FEF82C9B2FA05F40920F5658EFEEB;
 			remoteInfo = "DRYTestUtilities-DRYTestUtilities";
 		};
-		55C05D067EEAA5F8F2F6BC6F3A8DA44E /* PBXContainerItemProxy */ = {
+		170FE984F050FC14F22F7124F9CD82D6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 6C54D5BE251C18F069C21347464BAC1F;
+			remoteGlobalIDString = CBC1FAFE959166EC224DD34C4C448BAE;
 			remoteInfo = "DRYUtilities-DRYUtilities";
 		};
-		F5B455B8AF9988E318BE2B38DF2E9778 /* PBXContainerItemProxy */ = {
+		3F4C12CDBDEF64A8E454A9FFBF5C3AB0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = F7245F099B237B2C1279453764675A53;
+			remoteGlobalIDString = FC183640EE964B0D71DB31F39061E5DE;
+			remoteInfo = DRYTestUtilities;
+		};
+		9D180C4BD3E33D2DD138BEC9D4B905D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F7EFD61C296E2A4BA1BD961C73B0FD0;
 			remoteInfo = DRYUtilities;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00D0BCC8F2E230A92BF72CE0239A36D3 /* DRYTestUtilities.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DRYTestUtilities.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		0858CAD7ECDF71C4189F0FB2DB70FDBD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		090A37AA2F3A0E2C1F47195F929FBA3B /* DRYParameterizedTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DRYParameterizedTestCase.h; sourceTree = "<group>"; };
+		07084D6C468D38341A5E475817BBD639 /* UIView+DRYLoadFromNib.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+DRYLoadFromNib.h"; path = "Pod/Classes/UIKit/UIView+DRYLoadFromNib.h"; sourceTree = "<group>"; };
+		07DA478B1512DE658C19F0D20B877EA3 /* DRYTestUtilities.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DRYTestUtilities.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C55CFDF47513A4D158B5E790E3305A9 /* DRYSimpleTestNameProvidingParameter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DRYSimpleTestNameProvidingParameter.h; sourceTree = "<group>"; };
+		0C5E389BD6B7A25089197AD70C6DDF87 /* NSNull+DRYNSNullSupport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSNull+DRYNSNullSupport.h"; path = "Pod/Classes/Foundation/NSObject/NSNull+DRYNSNullSupport.h"; sourceTree = "<group>"; };
 		0CA2B7EAE1ED34F146B7E9ECCE0A4BC6 /* Pods-DRYTestUtilities.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DRYTestUtilities.release.xcconfig"; sourceTree = "<group>"; };
-		0D1F50F30C4814C5660BC319761660B6 /* DRYFakeHTTPSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DRYFakeHTTPSessionManager.h; sourceTree = "<group>"; };
-		10C54AA489FEC3B62384B8A770D826B3 /* DRYBaseDynamicPropertyProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DRYBaseDynamicPropertyProvider.h; path = Pod/Classes/Configuration/DRYBaseDynamicPropertyProvider.h; sourceTree = "<group>"; };
-		21948B8654875EB26244F346F5C4575A /* UIView+DRYLoadFromNib.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+DRYLoadFromNib.m"; path = "Pod/Classes/UIKit/UIView+DRYLoadFromNib.m"; sourceTree = "<group>"; };
-		222880B7577C0433A694548582B0AF79 /* NSNull+DRYNSNullSupport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSNull+DRYNSNullSupport.m"; path = "Pod/Classes/Foundation/NSObject/NSNull+DRYNSNullSupport.m"; sourceTree = "<group>"; };
 		2301F3C1CE4144054ABEE8C382E791D1 /* Pods-DRYTestUtilities-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DRYTestUtilities-resources.sh"; sourceTree = "<group>"; };
-		239727E76470447CBEBED1482D530442 /* DRYSimpleTestNameProvidingParameter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DRYSimpleTestNameProvidingParameter.m; sourceTree = "<group>"; };
-		28BF824DD0B37E2CD506DB48D8890D13 /* NSString+DRYUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+DRYUtil.m"; path = "Pod/Classes/Foundation/NSString/NSString+DRYUtil.m"; sourceTree = "<group>"; };
-		3C2A594ED22C637DA1616E85CB0B4BD7 /* DRYParameterizedTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DRYParameterizedTestCase.m; sourceTree = "<group>"; };
-		3F84C3BCB969149F9C7ACB83B52C47D8 /* DRYFakeHTTPSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DRYFakeHTTPSessionManager.m; sourceTree = "<group>"; };
+		24631C377F5BA3F741ECF97D8FDE2C36 /* DRYFakeHTTPSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DRYFakeHTTPSessionManager.h; sourceTree = "<group>"; };
+		24AE2BB91558F1C5C02F4B8E245CBF82 /* DRYParameterizedTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DRYParameterizedTestCase.m; sourceTree = "<group>"; };
+		2BE9600631EBA8F88DFA45E221D6A8B1 /* NSNull+DRYNSNullSupport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSNull+DRYNSNullSupport.m"; path = "Pod/Classes/Foundation/NSObject/NSNull+DRYNSNullSupport.m"; sourceTree = "<group>"; };
+		4465385DB1FEC12B556A52DB6D217DB9 /* DRYSecurityStoreWrapper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DRYSecurityStoreWrapper.m; path = Pod/Classes/Security/DRYSecurityStoreWrapper.m; sourceTree = "<group>"; };
 		48F705FB248EDA4FBAC8C24633AA82F5 /* libPods-DRYTestUtilities.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DRYTestUtilities.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4CE0CC73BE17DA0CBFD86E77A107CD27 /* NSObject+DRYNSNullSupport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+DRYNSNullSupport.h"; path = "Pod/Classes/Foundation/NSObject/NSObject+DRYNSNullSupport.h"; sourceTree = "<group>"; };
-		4EF57FF2EF7FC48D84E8834170828C28 /* DRYUtilities.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DRYUtilities.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		4F62E9746543082B399918B88369BBA2 /* DRYTestUtilities-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DRYTestUtilities-dummy.m"; sourceTree = "<group>"; };
+		49905AFE4E36F35D528058288C00DB02 /* DRYUtilities-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "DRYUtilities-Private.xcconfig"; sourceTree = "<group>"; };
+		4990D40F870DB20EB4C931063AC8DE91 /* DRYParameterizedTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DRYParameterizedTestCase.h; sourceTree = "<group>"; };
+		4EE900155431A7928C9FB59317F70129 /* DRYResourceReader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DRYResourceReader.h; path = Pod/Classes/Configuration/DRYResourceReader.h; sourceTree = "<group>"; };
+		506E4119F80FC4445B33432853756633 /* DRYFakeHTTPSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DRYFakeHTTPSessionManager.m; sourceTree = "<group>"; };
 		56C6D4F4DF0D32B8F2C8C5D568FAA509 /* DRYTestUtilities-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DRYTestUtilities-prefix.pch"; sourceTree = "<group>"; };
-		58C8558CFAE54022474B9DCA6D4CC056 /* DRYTestUtilities-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "DRYTestUtilities-Private.xcconfig"; sourceTree = "<group>"; };
+		5D628537C4905BF62966082216C57410 /* DRYSecurityCredentials.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DRYSecurityCredentials.m; path = Pod/Classes/Security/DRYSecurityCredentials.m; sourceTree = "<group>"; };
+		5D743F2F32536C1F3E5DB4CED5BED5B9 /* DRYSecurityStoreWrapper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DRYSecurityStoreWrapper.h; path = Pod/Classes/Security/DRYSecurityStoreWrapper.h; sourceTree = "<group>"; };
+		6032E76B4DFE8E7626875068F052A791 /* NSString+DRYHex.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+DRYHex.m"; path = "Pod/Classes/Foundation/NSString/NSString+DRYHex.m"; sourceTree = "<group>"; };
 		605A854FFDD678E7B1D40AAE0FAC1B60 /* Pods-DRYTestUtilities-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DRYTestUtilities-dummy.m"; sourceTree = "<group>"; };
 		64DE3DBA263B8B565094729CB514312D /* DRYUtilities.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DRYUtilities.xcconfig; sourceTree = "<group>"; };
-		6D0E8BA9316A7DC05B23FA8BFEFF1C5A /* DRYCoreDataTableViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DRYCoreDataTableViewController.h; path = Pod/Classes/CoreData/DRYCoreDataTableViewController.h; sourceTree = "<group>"; };
-		6F99D8230B5EDC589DB2B8B027D473B6 /* DRYResourceReader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DRYResourceReader.h; path = Pod/Classes/Configuration/DRYResourceReader.h; sourceTree = "<group>"; };
-		743D5C156DB32B2985060A780A34FEDB /* libDRYUtilities.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libDRYUtilities.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		6581CCF28710EBE69D491E41D86BD2DD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6B06E212188185F871A73D85451CFF13 /* DRYCoreDataTableViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DRYCoreDataTableViewController.h; path = Pod/Classes/CoreData/DRYCoreDataTableViewController.h; sourceTree = "<group>"; };
+		82A881A98C1957300CF63EF62A36083C /* NSString+DRYUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+DRYUtil.m"; path = "Pod/Classes/Foundation/NSString/NSString+DRYUtil.m"; sourceTree = "<group>"; };
 		8672F597586D0271AD505C4E008AE802 /* Pods-DRYTestUtilities-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DRYTestUtilities-acknowledgements.plist"; sourceTree = "<group>"; };
-		888C668CB0F265F5669C3DEBAB260080 /* DRYSecurityStoreWrapper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DRYSecurityStoreWrapper.m; path = Pod/Classes/Security/DRYSecurityStoreWrapper.m; sourceTree = "<group>"; };
-		88EFCD34C09D70546160E0E6617A96BD /* NSObject+DRYNSNullSupport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+DRYNSNullSupport.m"; path = "Pod/Classes/Foundation/NSObject/NSObject+DRYNSNullSupport.m"; sourceTree = "<group>"; };
 		8918A17E2C78702B64E4B8A0FE52A75F /* DRYUtilities-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DRYUtilities-prefix.pch"; sourceTree = "<group>"; };
+		89FB5428E0087DC04881B43DBE0C0D5E /* libDRYUtilities.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libDRYUtilities.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DE9DC0F42F6A8080D2A5371BA679D07 /* DRYUtilities.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DRYUtilities.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E396788826811D6F8082B846881B548 /* Pods-DRYTestUtilities.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DRYTestUtilities.debug.xcconfig"; sourceTree = "<group>"; };
-		8F9F0D9F5422E6A4314D32B06F8A46BF /* NSString+DRYTemplateReplacement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+DRYTemplateReplacement.h"; path = "Pod/Classes/Foundation/NSString/NSString+DRYTemplateReplacement.h"; sourceTree = "<group>"; };
-		92436F48C1782617DAB7A7DDE317C5F3 /* DRYUtilities-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DRYUtilities-dummy.m"; sourceTree = "<group>"; };
-		A4956B4B055B0343C1498FAFBBDAF376 /* DRYCoreDataTableViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DRYCoreDataTableViewController.m; path = Pod/Classes/CoreData/DRYCoreDataTableViewController.m; sourceTree = "<group>"; };
-		A883540AD6DE44963955CE7FAB6ECD2C /* DRYHTTPSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DRYHTTPSessionManager.h; path = Pod/Classes/Networking/DRYHTTPSessionManager.h; sourceTree = "<group>"; };
-		B046DAB5A43320CBD072BB1F7B97FF0D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		B2718C26DD3BB28FAEBED95B8BC9C482 /* DRYSecurityCredentials.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DRYSecurityCredentials.h; path = Pod/Classes/Security/DRYSecurityCredentials.h; sourceTree = "<group>"; };
-		B44F46A5B0109CDB8AFEFC16BB7C470D /* DRYBaseDynamicPropertyProvider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DRYBaseDynamicPropertyProvider.m; path = Pod/Classes/Configuration/DRYBaseDynamicPropertyProvider.m; sourceTree = "<group>"; };
-		B85C3A46E479833D64E3C50EFA9592CE /* DRYPlistResourceReader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DRYPlistResourceReader.h; path = Pod/Classes/Configuration/DRYPlistResourceReader.h; sourceTree = "<group>"; };
+		8F3845160E45C29A0B080CDE0E3FA618 /* DRYSimpleTestNameProvidingParameter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DRYSimpleTestNameProvidingParameter.m; sourceTree = "<group>"; };
+		91EFD23C2FFB0B86A39034C8AA9FF426 /* DRYPlistResourceReader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DRYPlistResourceReader.m; path = Pod/Classes/Configuration/DRYPlistResourceReader.m; sourceTree = "<group>"; };
+		9CF1527CDE978321300BE361517E3AC0 /* DRYTestUtilities-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DRYTestUtilities-dummy.m"; sourceTree = "<group>"; };
+		A8867BA9B1C0DC66AB7B390A48EFB88F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		A9AEE26A8D97AAB86FD2C1D26B32BA7A /* NSString+DRYTemplateReplacement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+DRYTemplateReplacement.h"; path = "Pod/Classes/Foundation/NSString/NSString+DRYTemplateReplacement.h"; sourceTree = "<group>"; };
+		B1F60AA624E506957DC53071D03AF1EE /* NSString+DRYTemplateReplacement.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+DRYTemplateReplacement.m"; path = "Pod/Classes/Foundation/NSString/NSString+DRYTemplateReplacement.m"; sourceTree = "<group>"; };
+		B56E912BA3DEB79CF4F24E3BD32B8291 /* libDRYTestUtilities.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libDRYTestUtilities.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8F8C003C8D2BC6276C902834940775E /* DRYPlistResourceReader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DRYPlistResourceReader.h; path = Pod/Classes/Configuration/DRYPlistResourceReader.h; sourceTree = "<group>"; };
+		B95C8976D6B107F8EF0AED1F42902391 /* NSString+DRYUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+DRYUtil.h"; path = "Pod/Classes/Foundation/NSString/NSString+DRYUtil.h"; sourceTree = "<group>"; };
+		B9FC07DC305D89648DB14602A4F8D29D /* UIView+DRYLoadFromNib.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+DRYLoadFromNib.m"; path = "Pod/Classes/UIKit/UIView+DRYLoadFromNib.m"; sourceTree = "<group>"; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		BA98E4970CB5679946562D733E9E6D74 /* NSNull+DRYNSNullSupport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSNull+DRYNSNullSupport.h"; path = "Pod/Classes/Foundation/NSObject/NSNull+DRYNSNullSupport.h"; sourceTree = "<group>"; };
-		BEB6580A0E4AFBAD44148C7D01E04A22 /* NSString+DRYHex.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+DRYHex.h"; path = "Pod/Classes/Foundation/NSString/NSString+DRYHex.h"; sourceTree = "<group>"; };
-		C2A37DB845DBF67638D905E435CB8F5F /* DRYUtilities-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "DRYUtilities-Private.xcconfig"; sourceTree = "<group>"; };
-		C75214A1C3FF9BB01C18B36751FC0F63 /* NSString+DRYHex.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+DRYHex.m"; path = "Pod/Classes/Foundation/NSString/NSString+DRYHex.m"; sourceTree = "<group>"; };
+		C2C85F6C8EB54C512823C1B0ADAB83C3 /* DRYCoreDataTableViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DRYCoreDataTableViewController.m; path = Pod/Classes/CoreData/DRYCoreDataTableViewController.m; sourceTree = "<group>"; };
+		C81C95D7A00135E9118F909CD17215A3 /* DRYUtilities-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DRYUtilities-dummy.m"; sourceTree = "<group>"; };
+		C8B211D5AC1015AA5BC34ACFAD6BCBEE /* DRYSecurityCredentials.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DRYSecurityCredentials.h; path = Pod/Classes/Security/DRYSecurityCredentials.h; sourceTree = "<group>"; };
 		C9ED325DF7BB7A274D49D49D201A0DC1 /* DRYTestUtilities.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DRYTestUtilities.xcconfig; sourceTree = "<group>"; };
-		CD2AC0F08F4F0164A762CFA6B1672548 /* DRYSimpleTestNameProvidingParameter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DRYSimpleTestNameProvidingParameter.h; sourceTree = "<group>"; };
-		CF42EF3E0D5F32EA0E11DC57053719AD /* DRYPlistResourceReader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DRYPlistResourceReader.m; path = Pod/Classes/Configuration/DRYPlistResourceReader.m; sourceTree = "<group>"; };
-		D19BFF4042882A7E4D5DF55D2DB4D852 /* DRYSecurityStoreWrapper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DRYSecurityStoreWrapper.h; path = Pod/Classes/Security/DRYSecurityStoreWrapper.h; sourceTree = "<group>"; };
-		D4C782C397E522896CA17E96FE0B26CE /* libDRYTestUtilities.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libDRYTestUtilities.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		DEBC9F6E97E305BE7D929FFAA66F20D9 /* NSString+DRYUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+DRYUtil.h"; path = "Pod/Classes/Foundation/NSString/NSString+DRYUtil.h"; sourceTree = "<group>"; };
-		E4A56953320C388CA5E3E0199BF3E3DD /* NSString+DRYTemplateReplacement.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+DRYTemplateReplacement.m"; path = "Pod/Classes/Foundation/NSString/NSString+DRYTemplateReplacement.m"; sourceTree = "<group>"; };
-		E84B12A07D362081A36C1B7FFFEFB764 /* UIView+DRYLoadFromNib.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+DRYLoadFromNib.h"; path = "Pod/Classes/UIKit/UIView+DRYLoadFromNib.h"; sourceTree = "<group>"; };
+		CCE6E9DC9C64A6AC06546814EEA5CE31 /* DRYHTTPSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DRYHTTPSessionManager.h; path = Pod/Classes/Networking/DRYHTTPSessionManager.h; sourceTree = "<group>"; };
+		CF7890488B112B59D6FA1C034FDD2814 /* NSObject+DRYNSNullSupport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+DRYNSNullSupport.m"; path = "Pod/Classes/Foundation/NSObject/NSObject+DRYNSNullSupport.m"; sourceTree = "<group>"; };
+		D2345596375806E2D109A2E360C21F39 /* NSObject+DRYNSNullSupport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+DRYNSNullSupport.h"; path = "Pod/Classes/Foundation/NSObject/NSObject+DRYNSNullSupport.h"; sourceTree = "<group>"; };
+		E6D1DB38E76451CC1EA0C23DCB7383DF /* DRYBaseDynamicPropertyProvider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DRYBaseDynamicPropertyProvider.m; path = Pod/Classes/Configuration/DRYBaseDynamicPropertyProvider.m; sourceTree = "<group>"; };
 		E8C7EA15E05285AE369DC6364DA4F5AA /* Pods-DRYTestUtilities-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DRYTestUtilities-acknowledgements.markdown"; sourceTree = "<group>"; };
-		F12658356A4A8AD8D66AFD759590795E /* DRYSecurityCredentials.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DRYSecurityCredentials.m; path = Pod/Classes/Security/DRYSecurityCredentials.m; sourceTree = "<group>"; };
+		F588591EE4748A422B15A360E601466D /* NSString+DRYHex.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+DRYHex.h"; path = "Pod/Classes/Foundation/NSString/NSString+DRYHex.h"; sourceTree = "<group>"; };
+		F5E16B713339303057F40B850E1C7F0E /* DRYTestUtilities-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "DRYTestUtilities-Private.xcconfig"; sourceTree = "<group>"; };
+		FAD19DDBFF34211E8544C1DFBB471020 /* DRYBaseDynamicPropertyProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DRYBaseDynamicPropertyProvider.h; path = Pod/Classes/Configuration/DRYBaseDynamicPropertyProvider.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		31A0BB9D353BFF138A9B96D27CC753FA /* Frameworks */ = {
+		1F63F1763C76D94F77C7D399AC2CB471 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -148,27 +148,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4C3BA916292DB6E66A8E09DD215C318C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3AE6BC5C9B066B0125A2AEAC733F3183 /* Foundation.framework in Frameworks */,
-				87BA6D067FA2184E16A8F852407A209B /* XCTest.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		51691A7A958F2B01E268CF2297F78C8A /* Frameworks */ = {
+		8D0CC5779EC1CAB4B211359A986F9C22 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		598AE0C759107075154EA0524BB9C15D /* Frameworks */ = {
+		C23A3BED372BA82914475A04E84DA69E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C5D16FD49BDD3B414B2713537FF0DBEE /* Foundation.framework in Frameworks */,
+				F2B9B489DC5A412415CB3E7233C88472 /* Foundation.framework in Frameworks */,
+				909AE70FBA12DADF047E5D1E8A44DF52 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D787323232E051EE2E2C1C584874FEDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CACE814EFC8325F08BF1A040C265D15 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -208,12 +208,12 @@
 		4EF17C320372D26087E560303120E76B /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				0D1F50F30C4814C5660BC319761660B6 /* DRYFakeHTTPSessionManager.h */,
-				3F84C3BCB969149F9C7ACB83B52C47D8 /* DRYFakeHTTPSessionManager.m */,
-				090A37AA2F3A0E2C1F47195F929FBA3B /* DRYParameterizedTestCase.h */,
-				3C2A594ED22C637DA1616E85CB0B4BD7 /* DRYParameterizedTestCase.m */,
-				CD2AC0F08F4F0164A762CFA6B1672548 /* DRYSimpleTestNameProvidingParameter.h */,
-				239727E76470447CBEBED1482D530442 /* DRYSimpleTestNameProvidingParameter.m */,
+				24631C377F5BA3F741ECF97D8FDE2C36 /* DRYFakeHTTPSessionManager.h */,
+				506E4119F80FC4445B33432853756633 /* DRYFakeHTTPSessionManager.m */,
+				4990D40F870DB20EB4C931063AC8DE91 /* DRYParameterizedTestCase.h */,
+				24AE2BB91558F1C5C02F4B8E245CBF82 /* DRYParameterizedTestCase.m */,
+				0C55CFDF47513A4D158B5E790E3305A9 /* DRYSimpleTestNameProvidingParameter.h */,
+				8F3845160E45C29A0B080CDE0E3FA618 /* DRYSimpleTestNameProvidingParameter.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -221,30 +221,30 @@
 		5D950E46A220822CF71213AB2B4F3A05 /* DRYUtilities */ = {
 			isa = PBXGroup;
 			children = (
-				10C54AA489FEC3B62384B8A770D826B3 /* DRYBaseDynamicPropertyProvider.h */,
-				B44F46A5B0109CDB8AFEFC16BB7C470D /* DRYBaseDynamicPropertyProvider.m */,
-				6D0E8BA9316A7DC05B23FA8BFEFF1C5A /* DRYCoreDataTableViewController.h */,
-				A4956B4B055B0343C1498FAFBBDAF376 /* DRYCoreDataTableViewController.m */,
-				A883540AD6DE44963955CE7FAB6ECD2C /* DRYHTTPSessionManager.h */,
-				B85C3A46E479833D64E3C50EFA9592CE /* DRYPlistResourceReader.h */,
-				CF42EF3E0D5F32EA0E11DC57053719AD /* DRYPlistResourceReader.m */,
-				6F99D8230B5EDC589DB2B8B027D473B6 /* DRYResourceReader.h */,
-				B2718C26DD3BB28FAEBED95B8BC9C482 /* DRYSecurityCredentials.h */,
-				F12658356A4A8AD8D66AFD759590795E /* DRYSecurityCredentials.m */,
-				D19BFF4042882A7E4D5DF55D2DB4D852 /* DRYSecurityStoreWrapper.h */,
-				888C668CB0F265F5669C3DEBAB260080 /* DRYSecurityStoreWrapper.m */,
-				BA98E4970CB5679946562D733E9E6D74 /* NSNull+DRYNSNullSupport.h */,
-				222880B7577C0433A694548582B0AF79 /* NSNull+DRYNSNullSupport.m */,
-				4CE0CC73BE17DA0CBFD86E77A107CD27 /* NSObject+DRYNSNullSupport.h */,
-				88EFCD34C09D70546160E0E6617A96BD /* NSObject+DRYNSNullSupport.m */,
-				BEB6580A0E4AFBAD44148C7D01E04A22 /* NSString+DRYHex.h */,
-				C75214A1C3FF9BB01C18B36751FC0F63 /* NSString+DRYHex.m */,
-				8F9F0D9F5422E6A4314D32B06F8A46BF /* NSString+DRYTemplateReplacement.h */,
-				E4A56953320C388CA5E3E0199BF3E3DD /* NSString+DRYTemplateReplacement.m */,
-				DEBC9F6E97E305BE7D929FFAA66F20D9 /* NSString+DRYUtil.h */,
-				28BF824DD0B37E2CD506DB48D8890D13 /* NSString+DRYUtil.m */,
-				E84B12A07D362081A36C1B7FFFEFB764 /* UIView+DRYLoadFromNib.h */,
-				21948B8654875EB26244F346F5C4575A /* UIView+DRYLoadFromNib.m */,
+				FAD19DDBFF34211E8544C1DFBB471020 /* DRYBaseDynamicPropertyProvider.h */,
+				E6D1DB38E76451CC1EA0C23DCB7383DF /* DRYBaseDynamicPropertyProvider.m */,
+				6B06E212188185F871A73D85451CFF13 /* DRYCoreDataTableViewController.h */,
+				C2C85F6C8EB54C512823C1B0ADAB83C3 /* DRYCoreDataTableViewController.m */,
+				CCE6E9DC9C64A6AC06546814EEA5CE31 /* DRYHTTPSessionManager.h */,
+				B8F8C003C8D2BC6276C902834940775E /* DRYPlistResourceReader.h */,
+				91EFD23C2FFB0B86A39034C8AA9FF426 /* DRYPlistResourceReader.m */,
+				4EE900155431A7928C9FB59317F70129 /* DRYResourceReader.h */,
+				C8B211D5AC1015AA5BC34ACFAD6BCBEE /* DRYSecurityCredentials.h */,
+				5D628537C4905BF62966082216C57410 /* DRYSecurityCredentials.m */,
+				5D743F2F32536C1F3E5DB4CED5BED5B9 /* DRYSecurityStoreWrapper.h */,
+				4465385DB1FEC12B556A52DB6D217DB9 /* DRYSecurityStoreWrapper.m */,
+				0C5E389BD6B7A25089197AD70C6DDF87 /* NSNull+DRYNSNullSupport.h */,
+				2BE9600631EBA8F88DFA45E221D6A8B1 /* NSNull+DRYNSNullSupport.m */,
+				D2345596375806E2D109A2E360C21F39 /* NSObject+DRYNSNullSupport.h */,
+				CF7890488B112B59D6FA1C034FDD2814 /* NSObject+DRYNSNullSupport.m */,
+				F588591EE4748A422B15A360E601466D /* NSString+DRYHex.h */,
+				6032E76B4DFE8E7626875068F052A791 /* NSString+DRYHex.m */,
+				A9AEE26A8D97AAB86FD2C1D26B32BA7A /* NSString+DRYTemplateReplacement.h */,
+				B1F60AA624E506957DC53071D03AF1EE /* NSString+DRYTemplateReplacement.m */,
+				B95C8976D6B107F8EF0AED1F42902391 /* NSString+DRYUtil.h */,
+				82A881A98C1957300CF63EF62A36083C /* NSString+DRYUtil.m */,
+				07084D6C468D38341A5E475817BBD639 /* UIView+DRYLoadFromNib.h */,
+				B9FC07DC305D89648DB14602A4F8D29D /* UIView+DRYLoadFromNib.m */,
 				FB452A8F8225DF7A643B5B72F57E584D /* Support Files */,
 			);
 			path = DRYUtilities;
@@ -253,8 +253,8 @@
 		672D1320B537524AB3A5A6B59F3A0AB5 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				0858CAD7ECDF71C4189F0FB2DB70FDBD /* Foundation.framework */,
-				B046DAB5A43320CBD072BB1F7B97FF0D /* XCTest.framework */,
+				6581CCF28710EBE69D491E41D86BD2DD /* Foundation.framework */,
+				A8867BA9B1C0DC66AB7B390A48EFB88F /* XCTest.framework */,
 			);
 			name = iOS;
 			sourceTree = "<group>";
@@ -263,8 +263,8 @@
 			isa = PBXGroup;
 			children = (
 				C9ED325DF7BB7A274D49D49D201A0DC1 /* DRYTestUtilities.xcconfig */,
-				58C8558CFAE54022474B9DCA6D4CC056 /* DRYTestUtilities-Private.xcconfig */,
-				4F62E9746543082B399918B88369BBA2 /* DRYTestUtilities-dummy.m */,
+				F5E16B713339303057F40B850E1C7F0E /* DRYTestUtilities-Private.xcconfig */,
+				9CF1527CDE978321300BE361517E3AC0 /* DRYTestUtilities-dummy.m */,
 				56C6D4F4DF0D32B8F2C8C5D568FAA509 /* DRYTestUtilities-prefix.pch */,
 			);
 			name = "Support Files";
@@ -302,10 +302,10 @@
 		CCA510CFBEA2D207524CDA0D73C3B561 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				00D0BCC8F2E230A92BF72CE0239A36D3 /* DRYTestUtilities.bundle */,
-				4EF57FF2EF7FC48D84E8834170828C28 /* DRYUtilities.bundle */,
-				D4C782C397E522896CA17E96FE0B26CE /* libDRYTestUtilities.a */,
-				743D5C156DB32B2985060A780A34FEDB /* libDRYUtilities.a */,
+				07DA478B1512DE658C19F0D20B877EA3 /* DRYTestUtilities.bundle */,
+				8DE9DC0F42F6A8080D2A5371BA679D07 /* DRYUtilities.bundle */,
+				B56E912BA3DEB79CF4F24E3BD32B8291 /* libDRYTestUtilities.a */,
+				89FB5428E0087DC04881B43DBE0C0D5E /* libDRYUtilities.a */,
 				48F705FB248EDA4FBAC8C24633AA82F5 /* libPods-DRYTestUtilities.a */,
 			);
 			name = Products;
@@ -333,8 +333,8 @@
 			isa = PBXGroup;
 			children = (
 				64DE3DBA263B8B565094729CB514312D /* DRYUtilities.xcconfig */,
-				C2A37DB845DBF67638D905E435CB8F5F /* DRYUtilities-Private.xcconfig */,
-				92436F48C1782617DAB7A7DDE317C5F3 /* DRYUtilities-dummy.m */,
+				49905AFE4E36F35D528058288C00DB02 /* DRYUtilities-Private.xcconfig */,
+				C81C95D7A00135E9118F909CD17215A3 /* DRYUtilities-dummy.m */,
 				8918A17E2C78702B64E4B8A0FE52A75F /* DRYUtilities-prefix.pch */,
 			);
 			name = "Support Files";
@@ -344,39 +344,57 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		8F03D5612B51B6163166EC5460ADAEF7 /* Headers */ = {
+		718E115D81CB4D39A7905E6302DD5F3A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E7F52999889B4624341253A44D1FD647 /* DRYBaseDynamicPropertyProvider.h in Headers */,
-				F86037FD7F709502DE5D265E52B5A461 /* DRYCoreDataTableViewController.h in Headers */,
-				E0DABD57B6ED3F58D9F477F575648412 /* DRYHTTPSessionManager.h in Headers */,
-				6BF87373081A9748B803E19507BBBF44 /* DRYPlistResourceReader.h in Headers */,
-				37F3D977A465115641A107243739F2B4 /* DRYResourceReader.h in Headers */,
-				4A079CCB69824FCC160643E5D9022F19 /* DRYSecurityCredentials.h in Headers */,
-				A436DB1CB1520207C3527CC8C9E7DA92 /* DRYSecurityStoreWrapper.h in Headers */,
-				9015B45BEF38443477D5DAD2EF8D28CC /* NSNull+DRYNSNullSupport.h in Headers */,
-				F3E80AFAD9DF12CEE8DFF62698A1D1BD /* NSObject+DRYNSNullSupport.h in Headers */,
-				B9FF45291704C2705CF02E7D2EA0CE96 /* NSString+DRYHex.h in Headers */,
-				C4951953CD6C4D863AFA39AEF1776AA3 /* NSString+DRYTemplateReplacement.h in Headers */,
-				7287D850BA42CDB2B2CB627B984709D6 /* NSString+DRYUtil.h in Headers */,
-				E8C2CFA7DC4F038140463331AE97CD79 /* UIView+DRYLoadFromNib.h in Headers */,
+				AB21F1EE8CE32891F5D7F3B1C7757833 /* DRYBaseDynamicPropertyProvider.h in Headers */,
+				0964A85AB8A4F8A730BD9433DE0224FE /* DRYCoreDataTableViewController.h in Headers */,
+				EC6A94BA140437CA28D6C2CCF597B668 /* DRYHTTPSessionManager.h in Headers */,
+				5F4892B211C1FD3C75CD6E04E4AD8437 /* DRYPlistResourceReader.h in Headers */,
+				67F60CB849FFF07C8E438BD1B232A47C /* DRYResourceReader.h in Headers */,
+				28304778512EA1B9FC2D43C0F678D62C /* DRYSecurityCredentials.h in Headers */,
+				B12E45627B58D89CB45B0F849463D477 /* DRYSecurityStoreWrapper.h in Headers */,
+				7211E4A4118DDCFAFA41C451E62FDDC1 /* NSNull+DRYNSNullSupport.h in Headers */,
+				4744F066ED3609F28B3A993846490BFC /* NSObject+DRYNSNullSupport.h in Headers */,
+				A5A1010B3027A75629891D87BB39AC22 /* NSString+DRYHex.h in Headers */,
+				DF81EC65893BAA7C6DCBE49C7B082F27 /* NSString+DRYTemplateReplacement.h in Headers */,
+				75A9A6F75264A016329CA071C950FE28 /* NSString+DRYUtil.h in Headers */,
+				B50404267C9C29CAB5DFC8AD70EA2FFD /* UIView+DRYLoadFromNib.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D8576264C7ED0DC899A769B86608A31F /* Headers */ = {
+		E9138003F7756E1480E39DD336513E80 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D49FAB54A325BC453CD1CEF2633068EC /* DRYFakeHTTPSessionManager.h in Headers */,
-				D6587FBBEF3DAF4CD0D9E69E5FA66CAC /* DRYParameterizedTestCase.h in Headers */,
-				9612F8ABE5EC6A17BB91E70BF40E2422 /* DRYSimpleTestNameProvidingParameter.h in Headers */,
+				7F9EA1C80C8BA795226C9C0F154B57AE /* DRYFakeHTTPSessionManager.h in Headers */,
+				EB38F04D0B7882DE8A05A6883C14E294 /* DRYParameterizedTestCase.h in Headers */,
+				0DF1C086290DB2F6DD1F9D65194B8C2D /* DRYSimpleTestNameProvidingParameter.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		1F7EFD61C296E2A4BA1BD961C73B0FD0 /* DRYUtilities */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18735BD003E9215E81DFE5243875317F /* Build configuration list for PBXNativeTarget "DRYUtilities" */;
+			buildPhases = (
+				22C4D7F89004DFCE45B48A372D8858CA /* Sources */,
+				D787323232E051EE2E2C1C584874FEDC /* Frameworks */,
+				718E115D81CB4D39A7905E6302DD5F3A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0FE1E4A244E4987806CDFF59D0739195 /* PBXTargetDependency */,
+			);
+			name = DRYUtilities;
+			productName = DRYUtilities;
+			productReference = 89FB5428E0087DC04881B43DBE0C0D5E /* libDRYUtilities.a */;
+			productType = "com.apple.product-type.library.static";
+		};
 		3B9EF77CB7DDD7B42E31DD653709D8AA /* Pods-DRYTestUtilities */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 31A516A93283108E2A4DEB2D2CBC0FC7 /* Build configuration list for PBXNativeTarget "Pods-DRYTestUtilities" */;
@@ -387,56 +405,21 @@
 			buildRules = (
 			);
 			dependencies = (
-				D65E15829942388365F49778FB0CB48E /* PBXTargetDependency */,
-				5D0E9323F243056701C37964B925DB2C /* PBXTargetDependency */,
+				F67A425ABBD06BB44B5DC45126272C67 /* PBXTargetDependency */,
+				D972D57A69754D5BB124D30207182284 /* PBXTargetDependency */,
 			);
 			name = "Pods-DRYTestUtilities";
 			productName = "Pods-DRYTestUtilities";
 			productReference = 48F705FB248EDA4FBAC8C24633AA82F5 /* libPods-DRYTestUtilities.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		6C54D5BE251C18F069C21347464BAC1F /* DRYUtilities-DRYUtilities */ = {
+		884FEF82C9B2FA05F40920F5658EFEEB /* DRYTestUtilities-DRYTestUtilities */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F66717F30ACC5979B8C2361389FF2D21 /* Build configuration list for PBXNativeTarget "DRYUtilities-DRYUtilities" */;
+			buildConfigurationList = 54FFF32C3B4138A28ACC387525E4CC90 /* Build configuration list for PBXNativeTarget "DRYTestUtilities-DRYTestUtilities" */;
 			buildPhases = (
-				03117995CA511FC5B1C8CC8D79F28DA8 /* Sources */,
-				51691A7A958F2B01E268CF2297F78C8A /* Frameworks */,
-				7CBED14C0B271F971FB071BA99924132 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "DRYUtilities-DRYUtilities";
-			productName = "DRYUtilities-DRYUtilities";
-			productReference = 4EF57FF2EF7FC48D84E8834170828C28 /* DRYUtilities.bundle */;
-			productType = "com.apple.product-type.bundle";
-		};
-		B342DA2C6D9011FF9EBD653E07F652DB /* DRYTestUtilities */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = BC08EA56E521D25C7DEDC57624EE7F35 /* Build configuration list for PBXNativeTarget "DRYTestUtilities" */;
-			buildPhases = (
-				C41F42AD1F630211407FE21E720AEF63 /* Sources */,
-				4C3BA916292DB6E66A8E09DD215C318C /* Frameworks */,
-				D8576264C7ED0DC899A769B86608A31F /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				C9BFBA7E0AE3BD479EB68436F7512164 /* PBXTargetDependency */,
-			);
-			name = DRYTestUtilities;
-			productName = DRYTestUtilities;
-			productReference = D4C782C397E522896CA17E96FE0B26CE /* libDRYTestUtilities.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		CCC7EE5FA44281A2387A823CB2AE0837 /* DRYTestUtilities-DRYTestUtilities */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 7D4465FEC4826DC7264AA6E04C2ABCB8 /* Build configuration list for PBXNativeTarget "DRYTestUtilities-DRYTestUtilities" */;
-			buildPhases = (
-				17859883D2E72B656013D9545A5FA255 /* Sources */,
-				31A0BB9D353BFF138A9B96D27CC753FA /* Frameworks */,
-				3E7D63A50DA258CCCB056E1AB303FCA2 /* Resources */,
+				DDBBFF3355AF0372C1634D27BEECB07C /* Sources */,
+				1F63F1763C76D94F77C7D399AC2CB471 /* Frameworks */,
+				6FBD4F5B37F6AA4D60DDFB41C5759203 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -444,25 +427,42 @@
 			);
 			name = "DRYTestUtilities-DRYTestUtilities";
 			productName = "DRYTestUtilities-DRYTestUtilities";
-			productReference = 00D0BCC8F2E230A92BF72CE0239A36D3 /* DRYTestUtilities.bundle */;
+			productReference = 07DA478B1512DE658C19F0D20B877EA3 /* DRYTestUtilities.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
-		F7245F099B237B2C1279453764675A53 /* DRYUtilities */ = {
+		CBC1FAFE959166EC224DD34C4C448BAE /* DRYUtilities-DRYUtilities */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B1D1E45BB78CB69425A9DE27E845EB18 /* Build configuration list for PBXNativeTarget "DRYUtilities" */;
+			buildConfigurationList = D0982662D23D965CD15CFBF547D6331A /* Build configuration list for PBXNativeTarget "DRYUtilities-DRYUtilities" */;
 			buildPhases = (
-				77004FF72320F2715F8C4EB086379164 /* Sources */,
-				598AE0C759107075154EA0524BB9C15D /* Frameworks */,
-				8F03D5612B51B6163166EC5460ADAEF7 /* Headers */,
+				C948F5B7D4233FED8E2EC220D9F4CD95 /* Sources */,
+				8D0CC5779EC1CAB4B211359A986F9C22 /* Frameworks */,
+				FA6E88A77F3032789891C923A08D87B4 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				8883C5EB97D861BBE5E16879C0F75122 /* PBXTargetDependency */,
 			);
-			name = DRYUtilities;
-			productName = DRYUtilities;
-			productReference = 743D5C156DB32B2985060A780A34FEDB /* libDRYUtilities.a */;
+			name = "DRYUtilities-DRYUtilities";
+			productName = "DRYUtilities-DRYUtilities";
+			productReference = 8DE9DC0F42F6A8080D2A5371BA679D07 /* DRYUtilities.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		FC183640EE964B0D71DB31F39061E5DE /* DRYTestUtilities */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2EB7265B13788DADFBD0E769FDAAF43F /* Build configuration list for PBXNativeTarget "DRYTestUtilities" */;
+			buildPhases = (
+				7526EB275FC503A107A1AF9D684B2431 /* Sources */,
+				C23A3BED372BA82914475A04E84DA69E /* Frameworks */,
+				E9138003F7756E1480E39DD336513E80 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB8EABE286899F8FDCE0FE101B209304 /* PBXTargetDependency */,
+			);
+			name = DRYTestUtilities;
+			productName = DRYTestUtilities;
+			productReference = B56E912BA3DEB79CF4F24E3BD32B8291 /* libDRYTestUtilities.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -486,24 +486,24 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B342DA2C6D9011FF9EBD653E07F652DB /* DRYTestUtilities */,
-				CCC7EE5FA44281A2387A823CB2AE0837 /* DRYTestUtilities-DRYTestUtilities */,
-				F7245F099B237B2C1279453764675A53 /* DRYUtilities */,
-				6C54D5BE251C18F069C21347464BAC1F /* DRYUtilities-DRYUtilities */,
+				FC183640EE964B0D71DB31F39061E5DE /* DRYTestUtilities */,
+				884FEF82C9B2FA05F40920F5658EFEEB /* DRYTestUtilities-DRYTestUtilities */,
+				1F7EFD61C296E2A4BA1BD961C73B0FD0 /* DRYUtilities */,
+				CBC1FAFE959166EC224DD34C4C448BAE /* DRYUtilities-DRYUtilities */,
 				3B9EF77CB7DDD7B42E31DD653709D8AA /* Pods-DRYTestUtilities */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		3E7D63A50DA258CCCB056E1AB303FCA2 /* Resources */ = {
+		6FBD4F5B37F6AA4D60DDFB41C5759203 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7CBED14C0B271F971FB071BA99924132 /* Resources */ = {
+		FA6E88A77F3032789891C923A08D87B4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -513,13 +513,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		03117995CA511FC5B1C8CC8D79F28DA8 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		16DE5291A7FF1134A420AD6CA8A3E81B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -528,73 +521,92 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		17859883D2E72B656013D9545A5FA255 /* Sources */ = {
+		22C4D7F89004DFCE45B48A372D8858CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0873A566A566C5DFC6BB28DDF733AF4 /* DRYBaseDynamicPropertyProvider.m in Sources */,
+				19CD35AC61765720423B3CDE68792F13 /* DRYCoreDataTableViewController.m in Sources */,
+				1C44A6AE87AA1EE46BDB5C9D6ACA2783 /* DRYPlistResourceReader.m in Sources */,
+				3B552408BBE7305FBA1CDE9E57469430 /* DRYSecurityCredentials.m in Sources */,
+				A98959EF36CB8F3EBA10A1C2FF39B4BF /* DRYSecurityStoreWrapper.m in Sources */,
+				C740A0A01BC59F5665C834825D629CB5 /* DRYUtilities-dummy.m in Sources */,
+				7C91530B67AEF365C3A0D3738E090CF9 /* NSNull+DRYNSNullSupport.m in Sources */,
+				2FDE4F50FB2C3D659F9C69B0A0A7CD2D /* NSObject+DRYNSNullSupport.m in Sources */,
+				A2E20D153260890E03F7BC9A33EDA5A8 /* NSString+DRYHex.m in Sources */,
+				918A227577A3263313D34B1B4E98F6E6 /* NSString+DRYTemplateReplacement.m in Sources */,
+				2387A78FF4DE5FF9E22BF38948DCBE6B /* NSString+DRYUtil.m in Sources */,
+				E07CAC2198858B366BAB037B93203A65 /* UIView+DRYLoadFromNib.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7526EB275FC503A107A1AF9D684B2431 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				715EA2B241F6B0CFFF2001551C613E32 /* DRYFakeHTTPSessionManager.m in Sources */,
+				69A644DDF6808EC82B27F3394B183389 /* DRYParameterizedTestCase.m in Sources */,
+				B34DFF74ABFE8164132CD92EF943F78F /* DRYSimpleTestNameProvidingParameter.m in Sources */,
+				9B0407B55EB824DB0043ED75BA85BAB7 /* DRYTestUtilities-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C948F5B7D4233FED8E2EC220D9F4CD95 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		77004FF72320F2715F8C4EB086379164 /* Sources */ = {
+		DDBBFF3355AF0372C1634D27BEECB07C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9F5EB1DEC48C782F33B7D3A7E9F68DF0 /* DRYBaseDynamicPropertyProvider.m in Sources */,
-				400148182DC32FBE25FD6B63B6398561 /* DRYCoreDataTableViewController.m in Sources */,
-				E9F9FA0AFE16A3F1E28F6AFAAD037A13 /* DRYPlistResourceReader.m in Sources */,
-				3605D35864C77E67589C8CFBCEE68200 /* DRYSecurityCredentials.m in Sources */,
-				74DBC38FCB3353A162616321C982E8C1 /* DRYSecurityStoreWrapper.m in Sources */,
-				98A59E2A12A3DD9E3A1F31018643E0A5 /* DRYUtilities-dummy.m in Sources */,
-				F6284AA8F96A90F32072300D9E4155FF /* NSNull+DRYNSNullSupport.m in Sources */,
-				B2426995F25EAE06542B506889638DAF /* NSObject+DRYNSNullSupport.m in Sources */,
-				214ABBC7163B84155AA91D586CCDD334 /* NSString+DRYHex.m in Sources */,
-				378BAA2E3331E292BFADB678B9A4E96E /* NSString+DRYTemplateReplacement.m in Sources */,
-				2CA574DFB565C098E1A25B5630DDDF03 /* NSString+DRYUtil.m in Sources */,
-				05589673E9309B8A7888A16C7BACB519 /* UIView+DRYLoadFromNib.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C41F42AD1F630211407FE21E720AEF63 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E58F70107F687C08ABB7583B8BA78E3D /* DRYFakeHTTPSessionManager.m in Sources */,
-				D7BCEF5DB6F9F25E23D35A78415E31FB /* DRYParameterizedTestCase.m in Sources */,
-				078FA5A54D2FB50DB9E31E0203F706B6 /* DRYSimpleTestNameProvidingParameter.m in Sources */,
-				EFC054418AF3D923ED7D0F0ECFC392B7 /* DRYTestUtilities-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		5D0E9323F243056701C37964B925DB2C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = DRYUtilities;
-			target = F7245F099B237B2C1279453764675A53 /* DRYUtilities */;
-			targetProxy = F5B455B8AF9988E318BE2B38DF2E9778 /* PBXContainerItemProxy */;
-		};
-		8883C5EB97D861BBE5E16879C0F75122 /* PBXTargetDependency */ = {
+		0FE1E4A244E4987806CDFF59D0739195 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "DRYUtilities-DRYUtilities";
-			target = 6C54D5BE251C18F069C21347464BAC1F /* DRYUtilities-DRYUtilities */;
-			targetProxy = 55C05D067EEAA5F8F2F6BC6F3A8DA44E /* PBXContainerItemProxy */;
+			target = CBC1FAFE959166EC224DD34C4C448BAE /* DRYUtilities-DRYUtilities */;
+			targetProxy = 170FE984F050FC14F22F7124F9CD82D6 /* PBXContainerItemProxy */;
 		};
-		C9BFBA7E0AE3BD479EB68436F7512164 /* PBXTargetDependency */ = {
+		BB8EABE286899F8FDCE0FE101B209304 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "DRYTestUtilities-DRYTestUtilities";
-			target = CCC7EE5FA44281A2387A823CB2AE0837 /* DRYTestUtilities-DRYTestUtilities */;
-			targetProxy = 29936987ADD72193FEEBC2AF10A0B0AC /* PBXContainerItemProxy */;
+			target = 884FEF82C9B2FA05F40920F5658EFEEB /* DRYTestUtilities-DRYTestUtilities */;
+			targetProxy = 0C423EFE0D9BB6CEE36D2B0079D6C4E6 /* PBXContainerItemProxy */;
 		};
-		D65E15829942388365F49778FB0CB48E /* PBXTargetDependency */ = {
+		D972D57A69754D5BB124D30207182284 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DRYUtilities;
+			target = 1F7EFD61C296E2A4BA1BD961C73B0FD0 /* DRYUtilities */;
+			targetProxy = 9D180C4BD3E33D2DD138BEC9D4B905D2 /* PBXContainerItemProxy */;
+		};
+		F67A425ABBD06BB44B5DC45126272C67 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = DRYTestUtilities;
-			target = B342DA2C6D9011FF9EBD653E07F652DB /* DRYTestUtilities */;
-			targetProxy = 17775BC38C149C968B4B97465D5A9F87 /* PBXContainerItemProxy */;
+			target = FC183640EE964B0D71DB31F39061E5DE /* DRYTestUtilities */;
+			targetProxy = 3F4C12CDBDEF64A8E454A9FFBF5C3AB0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		02C41C53A7FA78E49DBE9991AA6122BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49905AFE4E36F35D528058288C00DB02 /* DRYUtilities-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = DRYUtilities;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
 		03CA91998D6773EC5D02B3DB87B8353E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -684,33 +696,9 @@
 			};
 			name = Release;
 		};
-		141AE3AE2135AA7766930D8EA872CE27 /* Release */ = {
+		18E4E76DC40C3E99326E357199F59A56 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C2A37DB845DBF67638D905E435CB8F5F /* DRYUtilities-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = DRYUtilities;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		15EECE32CF6E4D59DD9664E5F1607E05 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 58C8558CFAE54022474B9DCA6D4CC056 /* DRYTestUtilities-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = DRYTestUtilities;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		819F36EF8979C9E8439AAAEAA89BDD72 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 58C8558CFAE54022474B9DCA6D4CC056 /* DRYTestUtilities-Private.xcconfig */;
+			baseConfigurationReference = F5E16B713339303057F40B850E1C7F0E /* DRYTestUtilities-Private.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/DRYTestUtilities/DRYTestUtilities-prefix.pch";
@@ -724,21 +712,9 @@
 			};
 			name = Release;
 		};
-		83AB57A0B46DCDD80723E2DC234783D8 /* Debug */ = {
+		37A4CDF6A5987A9203BE2A5B98DC5D39 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 58C8558CFAE54022474B9DCA6D4CC056 /* DRYTestUtilities-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = DRYTestUtilities;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		A8A7AE85144E5E665D845CEE3E894EC3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 58C8558CFAE54022474B9DCA6D4CC056 /* DRYTestUtilities-Private.xcconfig */;
+			baseConfigurationReference = F5E16B713339303057F40B850E1C7F0E /* DRYTestUtilities-Private.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/DRYTestUtilities/DRYTestUtilities-prefix.pch";
@@ -752,21 +728,9 @@
 			};
 			name = Debug;
 		};
-		DB153093F0BC51AD9F042A62BBAE5CDB /* Debug */ = {
+		3DCD35ABD097838AC34B2B2D79671E7B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C2A37DB845DBF67638D905E435CB8F5F /* DRYUtilities-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = DRYUtilities;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		E8E161D55CFD0F255BCD864230C6A72E /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C2A37DB845DBF67638D905E435CB8F5F /* DRYUtilities-Private.xcconfig */;
+			baseConfigurationReference = 49905AFE4E36F35D528058288C00DB02 /* DRYUtilities-Private.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/DRYUtilities/DRYUtilities-prefix.pch";
@@ -780,9 +744,21 @@
 			};
 			name = Release;
 		};
-		F2A1F74BAE91577770F175CC97EF6C15 /* Debug */ = {
+		4EA7A805D7F8FDC80239C6AF0FD78A7E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C2A37DB845DBF67638D905E435CB8F5F /* DRYUtilities-Private.xcconfig */;
+			baseConfigurationReference = F5E16B713339303057F40B850E1C7F0E /* DRYTestUtilities-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = DRYTestUtilities;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		BE0E077076B1310079B1BCC8E7A3062A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49905AFE4E36F35D528058288C00DB02 /* DRYUtilities-Private.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/DRYUtilities/DRYUtilities-prefix.pch";
@@ -795,6 +771,30 @@
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
+		};
+		D4F907E29AD46635A101F7DFBFB0BEAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49905AFE4E36F35D528058288C00DB02 /* DRYUtilities-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = DRYUtilities;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		E531C74501638F5AD47764134C380A7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5E16B713339303057F40B850E1C7F0E /* DRYTestUtilities-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = DRYTestUtilities;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
 		};
 		F3D540E630A383E6B6B0BE984A2BCEE3 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -815,11 +815,29 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		18735BD003E9215E81DFE5243875317F /* Build configuration list for PBXNativeTarget "DRYUtilities" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE0E077076B1310079B1BCC8E7A3062A /* Debug */,
+				3DCD35ABD097838AC34B2B2D79671E7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */,
 				03CA91998D6773EC5D02B3DB87B8353E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2EB7265B13788DADFBD0E769FDAAF43F /* Build configuration list for PBXNativeTarget "DRYTestUtilities" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37A4CDF6A5987A9203BE2A5B98DC5D39 /* Debug */,
+				18E4E76DC40C3E99326E357199F59A56 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -833,38 +851,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7D4465FEC4826DC7264AA6E04C2ABCB8 /* Build configuration list for PBXNativeTarget "DRYTestUtilities-DRYTestUtilities" */ = {
+		54FFF32C3B4138A28ACC387525E4CC90 /* Build configuration list for PBXNativeTarget "DRYTestUtilities-DRYTestUtilities" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				83AB57A0B46DCDD80723E2DC234783D8 /* Debug */,
-				15EECE32CF6E4D59DD9664E5F1607E05 /* Release */,
+				4EA7A805D7F8FDC80239C6AF0FD78A7E /* Debug */,
+				E531C74501638F5AD47764134C380A7B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B1D1E45BB78CB69425A9DE27E845EB18 /* Build configuration list for PBXNativeTarget "DRYUtilities" */ = {
+		D0982662D23D965CD15CFBF547D6331A /* Build configuration list for PBXNativeTarget "DRYUtilities-DRYUtilities" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F2A1F74BAE91577770F175CC97EF6C15 /* Debug */,
-				E8E161D55CFD0F255BCD864230C6A72E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		BC08EA56E521D25C7DEDC57624EE7F35 /* Build configuration list for PBXNativeTarget "DRYTestUtilities" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A8A7AE85144E5E665D845CEE3E894EC3 /* Debug */,
-				819F36EF8979C9E8439AAAEAA89BDD72 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F66717F30ACC5979B8C2361389FF2D21 /* Build configuration list for PBXNativeTarget "DRYUtilities-DRYUtilities" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				DB153093F0BC51AD9F042A62BBAE5CDB /* Debug */,
-				141AE3AE2135AA7766930D8EA872CE27 /* Release */,
+				D4F907E29AD46635A101F7DFBFB0BEAE /* Debug */,
+				02C41C53A7FA78E49DBE9991AA6122BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

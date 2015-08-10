@@ -25,4 +25,5 @@ Pod::Spec.new do |s|
   }
 
   s.frameworks = 'XCTest'
+  s.dependency 'DRYUtilities'
 end

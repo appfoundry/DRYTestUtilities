@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "01005535ADAC01B6170C8CEC"
+               BlueprintIdentifier = "07BE431A23D2BA00A4CB5C31"
                BuildableName = "libDRYTestUtilities.a"
                BlueprintName = "DRYTestUtilities"
                ReferencedContainer = "container:Pods.xcodeproj">
