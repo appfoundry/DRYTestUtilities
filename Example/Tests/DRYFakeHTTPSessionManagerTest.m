@@ -7,7 +7,7 @@
 //
 
 #import <XCTest/XCTest.h>
-#import "DRYFakeHTTPSessionManager.h"
+#import <DRYFakeHTTPSessionManager.h>
 
 @interface DRYFakeHTTPSessionManagerTest : XCTestCase {
 	DRYFakeHTTPSessionManager *_fakeHTTPSessionManager;

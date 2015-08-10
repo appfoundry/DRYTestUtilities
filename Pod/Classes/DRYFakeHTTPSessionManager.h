@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <DRYHTTPSessionManager.h>
+#import <DRYUtilities/DRYHTTPSessionManager.h>
 
 typedef NS_ENUM(NSInteger, RequestMethod){
     RequestMethodNONE,

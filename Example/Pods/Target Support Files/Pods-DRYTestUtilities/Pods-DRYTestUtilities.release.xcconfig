@@ -1,6 +1,6 @@
 FRAMEWORK_SEARCH_PATHS = $(inherited) "$(SDKROOT)/Developer/Library/Frameworks" "$(PLATFORM_DIR)/Developer/Library/Frameworks"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
-HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/DRYTestUtilities"
-OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/DRYTestUtilities"
-OTHER_LDFLAGS = $(inherited) -ObjC -l"DRYTestUtilities" -framework "XCTest"
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/DRYTestUtilities" "${PODS_ROOT}/Headers/Public/DRYUtilities"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/DRYTestUtilities" -isystem "${PODS_ROOT}/Headers/Public/DRYUtilities"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"DRYTestUtilities" -l"DRYUtilities" -framework "Foundation" -framework "XCTest" -weak_framework "CoreData" -weak_framework "UIKit"
 PODS_ROOT = ${SRCROOT}/Pods
