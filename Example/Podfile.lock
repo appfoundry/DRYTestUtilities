@@ -1,5 +1,5 @@
 PODS:
-  - DRYTestUtilities (0.1.2)
+  - DRYTestUtilities (0.1.3)
   - DRYUtilities (1.4.0)
 
 DEPENDENCIES:
@@ -8,10 +8,10 @@ DEPENDENCIES:
 
 EXTERNAL SOURCES:
   DRYTestUtilities:
-    :path: ../
+    :path: "../"
 
 SPEC CHECKSUMS:
-  DRYTestUtilities: 01c5d17b922b0e7085da281a1121c9132b27d2f4
+  DRYTestUtilities: 64210d9f12ead559d603f70bf58684ea22e16e3e
   DRYUtilities: f072050282783ae93fca858a5225b9a5e04950f8
 
 COCOAPODS: 0.38.2
