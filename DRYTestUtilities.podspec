@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "DRYTestUtilities"
-  s.version          = "0.1.3"
+  s.version          = "0.1.4"
   s.summary          = "AppFoundry test utilities"
   s.homepage         = "https://github.com/appfoundry/DRYTestUtilities"
   s.license          = 'MIT'
@@ -19,11 +19,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '7.0'
   s.requires_arc = true
 
-  s.source_files = 'Pod/Classes/**/*'
-  s.resource_bundles = {
-    'DRYTestUtilities' => ['Pod/Assets/*.png']
-  }
-
+  s.source_files = 'Pod/Classes/**/*'  
   s.frameworks = 'XCTest'
   s.dependency 'DRYUtilities'
 end

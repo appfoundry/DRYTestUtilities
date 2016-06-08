@@ -1,6 +1,6 @@
 {
   "name": "DRYTestUtilities",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "summary": "AppFoundry test utilities",
   "homepage": "https://github.com/appfoundry/DRYTestUtilities",
   "license": "MIT",
@@ -9,17 +9,17 @@
   },
   "source": {
     "git": "https://github.com/appfoundry/DRYTestUtilities.git",
-    "tag": "0.1.3"
+    "tag": "0.1.4"
   },
   "platforms": {
     "ios": "7.0"
   },
   "requires_arc": true,
   "source_files": "Pod/Classes/**/*",
-  "resource_bundles": {
-    "DRYTestUtilities": [
-      "Pod/Assets/*.png"
+  "frameworks": "XCTest",
+  "dependencies": {
+    "DRYUtilities": [
+
     ]
-  },
-  "frameworks": "XCTest"
+  }
 }

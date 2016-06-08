@@ -1,6 +1,19 @@
 PODS:
-  - DRYTestUtilities (0.1.3)
-  - DRYUtilities (1.4.0)
+  - DRYTestUtilities (0.1.4):
+    - DRYUtilities
+  - DRYUtilities (1.6.0):
+    - DRYUtilities/Configuration (= 1.6.0)
+    - DRYUtilities/CoreData (= 1.6.0)
+    - DRYUtilities/Foundation (= 1.6.0)
+    - DRYUtilities/Networking (= 1.6.0)
+    - DRYUtilities/Security (= 1.6.0)
+    - DRYUtilities/UIKit (= 1.6.0)
+  - DRYUtilities/Configuration (1.6.0)
+  - DRYUtilities/CoreData (1.6.0)
+  - DRYUtilities/Foundation (1.6.0)
+  - DRYUtilities/Networking (1.6.0)
+  - DRYUtilities/Security (1.6.0)
+  - DRYUtilities/UIKit (1.6.0)
 
 DEPENDENCIES:
   - DRYTestUtilities (from `../`)
@@ -11,7 +24,9 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  DRYTestUtilities: 64210d9f12ead559d603f70bf58684ea22e16e3e
-  DRYUtilities: f072050282783ae93fca858a5225b9a5e04950f8
+  DRYTestUtilities: 331c4e82407c3d141cdbdd3209ba847e24e1a1d6
+  DRYUtilities: 45ac8f66e01b8d95b69ff05dee0b428d348ae5e7
 
-COCOAPODS: 0.38.2
+PODFILE CHECKSUM: 4886cf5e264691ed1c61e3e69c5e8a9c227cf254
+
+COCOAPODS: 1.0.1

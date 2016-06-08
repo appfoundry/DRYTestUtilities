@@ -10,11 +10,12 @@
 		2753AAC21AD493D800EB5D16 /* DRYArrayParametersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2753AAC11AD493D800EB5D16 /* DRYArrayParametersTests.m */; };
 		2753AAC41AD4953100EB5D16 /* DRYDictionaryParamersTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 2753AAC31AD4953100EB5D16 /* DRYDictionaryParamersTest.m */; };
 		2753AAC61AD4961200EB5D16 /* DRYParameterProviderParametersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2753AAC51AD4961200EB5D16 /* DRYParameterProviderParametersTests.m */; };
-		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
+		27B6C77E1D08604A00622E7C /* DRYMultipleParameterMethodsTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 27B6C77D1D08604A00622E7C /* DRYMultipleParameterMethodsTest.m */; };
+		27B6C7821D08D1F500622E7C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27B6C7811D08D1F400622E7C /* XCTest.framework */; };
+		44B8197AF5156E6A587731BF /* libPods-DRYTestUtilities.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C9CF7A353D9CCE249DD6F01D /* libPods-DRYTestUtilities.a */; };
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
-		A9E91938565E5C25382D5484 /* libPods-DRYTestUtilities.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 60AEEE4EC9B473FFE25E5036 /* libPods-DRYTestUtilities.a */; };
 		E59C7B101B667DD200112175 /* DRYFakeHTTPSessionManagerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E59C7B0F1B667DD200112175 /* DRYFakeHTTPSessionManagerTest.m */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +24,10 @@
 		2753AAC11AD493D800EB5D16 /* DRYArrayParametersTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DRYArrayParametersTests.m; sourceTree = "<group>"; };
 		2753AAC31AD4953100EB5D16 /* DRYDictionaryParamersTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DRYDictionaryParamersTest.m; sourceTree = "<group>"; };
 		2753AAC51AD4961200EB5D16 /* DRYParameterProviderParametersTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DRYParameterProviderParametersTests.m; sourceTree = "<group>"; };
+		27B6C77D1D08604A00622E7C /* DRYMultipleParameterMethodsTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DRYMultipleParameterMethodsTest.m; sourceTree = "<group>"; };
+		27B6C77F1D08D17600622E7C /* Xcode.app */ = {isa = PBXFileReference; lastKnownFileType = wrapper.application; name = Xcode.app; path = ../../../../../Applications/Xcode.app; sourceTree = "<group>"; };
+		27B6C7811D08D1F400622E7C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		3D045138AD228BE07225D273 /* Pods-DRYTestUtilities.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DRYTestUtilities.release.xcconfig"; path = "Pods/Target Support Files/Pods-DRYTestUtilities/Pods-DRYTestUtilities.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* DRYTestUtilities.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DRYTestUtilities.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -32,10 +37,9 @@
 		6003F5B7195388D20070C39A /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		60AEEE4EC9B473FFE25E5036 /* libPods-DRYTestUtilities.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DRYTestUtilities.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B4EC9379FD31519F554A8688 /* Pods-DRYTestUtilities.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DRYTestUtilities.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DRYTestUtilities/Pods-DRYTestUtilities.debug.xcconfig"; sourceTree = "<group>"; };
+		76DCD47A7E0D4CF693E18C79 /* Pods-DRYTestUtilities.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DRYTestUtilities.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DRYTestUtilities/Pods-DRYTestUtilities.debug.xcconfig"; sourceTree = "<group>"; };
 		BF7CEFEF226FE4A798F065E7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		CEA0555D307D748E8EDC8BBE /* Pods-DRYTestUtilities.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DRYTestUtilities.release.xcconfig"; path = "Pods/Target Support Files/Pods-DRYTestUtilities/Pods-DRYTestUtilities.release.xcconfig"; sourceTree = "<group>"; };
+		C9CF7A353D9CCE249DD6F01D /* libPods-DRYTestUtilities.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DRYTestUtilities.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E27B611C1D356821656C8A5F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		E59C7B0F1B667DD200112175 /* DRYFakeHTTPSessionManagerTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DRYFakeHTTPSessionManagerTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -45,21 +49,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
+				27B6C7821D08D1F500622E7C /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				A9E91938565E5C25382D5484 /* libPods-DRYTestUtilities.a in Frameworks */,
+				44B8197AF5156E6A587731BF /* libPods-DRYTestUtilities.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1DD4D16EA1DC36ED7F4FAA12 /* Pods */ = {
+		2C824E9109C904FAB0EE23AE /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				B4EC9379FD31519F554A8688 /* Pods-DRYTestUtilities.debug.xcconfig */,
-				CEA0555D307D748E8EDC8BBE /* Pods-DRYTestUtilities.release.xcconfig */,
+				76DCD47A7E0D4CF693E18C79 /* Pods-DRYTestUtilities.debug.xcconfig */,
+				3D045138AD228BE07225D273 /* Pods-DRYTestUtilities.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -71,7 +75,7 @@
 				6003F5B5195388D20070C39A /* Tests */,
 				6003F58C195388D20070C39A /* Frameworks */,
 				6003F58B195388D20070C39A /* Products */,
-				1DD4D16EA1DC36ED7F4FAA12 /* Pods */,
+				2C824E9109C904FAB0EE23AE /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -87,11 +91,13 @@
 		6003F58C195388D20070C39A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				27B6C7811D08D1F400622E7C /* XCTest.framework */,
+				27B6C77F1D08D17600622E7C /* Xcode.app */,
 				6003F58D195388D20070C39A /* Foundation.framework */,
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				60AEEE4EC9B473FFE25E5036 /* libPods-DRYTestUtilities.a */,
+				C9CF7A353D9CCE249DD6F01D /* libPods-DRYTestUtilities.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -104,6 +110,7 @@
 				2753AAC31AD4953100EB5D16 /* DRYDictionaryParamersTest.m */,
 				2753AAC51AD4961200EB5D16 /* DRYParameterProviderParametersTests.m */,
 				E59C7B0F1B667DD200112175 /* DRYFakeHTTPSessionManagerTest.m */,
+				27B6C77D1D08604A00622E7C /* DRYMultipleParameterMethodsTest.m */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
@@ -135,11 +142,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "DRYTestUtilities" */;
 			buildPhases = (
-				5F3063FC839A89C67C115B90 /* Check Pods Manifest.lock */,
+				CEDF2ADF802E4DFEC9C3A930 /* [CP] Check Pods Manifest.lock */,
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
-				6AF072565CF36A1DBDEEB415 /* Copy Pods Resources */,
+				B20D964B432D633B1A9AE661 /* [CP] Embed Pods Frameworks */,
+				16614BE205D164E2A20DDA4B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -157,7 +165,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = DRY;
-				LastUpgradeCheck = 0510;
+				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = "Michael Seghers";
 				TargetAttributes = {
 					6003F5AD195388D20070C39A = {
@@ -195,34 +203,49 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		5F3063FC839A89C67C115B90 /* Check Pods Manifest.lock */ = {
+		16614BE205D164E2A20DDA4B /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		6AF072565CF36A1DBDEEB415 /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DRYTestUtilities/Pods-DRYTestUtilities-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B20D964B432D633B1A9AE661 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DRYTestUtilities/Pods-DRYTestUtilities-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CEDF2ADF802E4DFEC9C3A930 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -235,6 +258,7 @@
 				2753AAC41AD4953100EB5D16 /* DRYDictionaryParamersTest.m in Sources */,
 				2753AAC61AD4961200EB5D16 /* DRYParameterProviderParametersTests.m in Sources */,
 				2753AAC21AD493D800EB5D16 /* DRYArrayParametersTests.m in Sources */,
+				27B6C77E1D08604A00622E7C /* DRYMultipleParameterMethodsTest.m in Sources */,
 				E59C7B101B667DD200112175 /* DRYFakeHTTPSessionManagerTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -271,6 +295,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -327,12 +352,11 @@
 		};
 		6003F5C3195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B4EC9379FD31519F554A8688 /* Pods-DRYTestUtilities.debug.xcconfig */;
+			baseConfigurationReference = 76DCD47A7E0D4CF693E18C79 /* Pods-DRYTestUtilities.debug.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Tests/Tests-Prefix.pch";
@@ -341,6 +365,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = "Tests/Tests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
@@ -349,16 +374,16 @@
 		};
 		6003F5C4195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CEA0555D307D748E8EDC8BBE /* Pods-DRYTestUtilities.release.xcconfig */;
+			baseConfigurationReference = 3D045138AD228BE07225D273 /* Pods-DRYTestUtilities.release.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Tests/Tests-Prefix.pch";
 				INFOPLIST_FILE = "Tests/Tests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
