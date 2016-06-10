@@ -22,4 +22,5 @@ Pod::Spec.new do |s|
   s.source_files = 'Pod/Classes/**/*'  
   s.frameworks = 'XCTest'
   s.dependency 'DRYUtilities'
+  s.user_target_xcconfig = { 'FRAMEWORK_SEARCH_PATHS' => '$(PLATFORM_DIR)/Developer/Library/Frameworks' }
 end
