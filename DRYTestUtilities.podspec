@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.summary          = "AppFoundry test utilities"
   s.homepage         = "https://github.com/appfoundry/DRYTestUtilities"
   s.license          = 'MIT'
-  s.author           = { "Michael Seghers" => "michael.seghers@ida-mediafoundry.be" }
+  s.author           = { "Michael Seghers" => "mike@appfoundry.be" }
   s.source           = { :git => "https://github.com/appfoundry/DRYTestUtilities.git", :tag => s.version.to_s }
 
   s.platform     = :ios, '7.0'

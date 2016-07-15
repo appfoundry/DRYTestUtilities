@@ -20,10 +20,6 @@ it, simply add the following line to your Podfile:
 pod "DRYTestUtilities"
 ```
 
-## Author
-
-Michael Seghers, michael.seghers@ida-mediafoundry.be
-
 ## License
 
 DRYTestUtilities is available under the MIT license. See the LICENSE file for more info.

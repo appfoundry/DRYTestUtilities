@@ -25,7 +25,6 @@
 		2753AAC31AD4953100EB5D16 /* DRYDictionaryParamersTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DRYDictionaryParamersTest.m; sourceTree = "<group>"; };
 		2753AAC51AD4961200EB5D16 /* DRYParameterProviderParametersTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DRYParameterProviderParametersTests.m; sourceTree = "<group>"; };
 		27B6C77D1D08604A00622E7C /* DRYMultipleParameterMethodsTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DRYMultipleParameterMethodsTest.m; sourceTree = "<group>"; };
-		27B6C77F1D08D17600622E7C /* Xcode.app */ = {isa = PBXFileReference; lastKnownFileType = wrapper.application; name = Xcode.app; path = ../../../../../Applications/Xcode.app; sourceTree = "<group>"; };
 		27B6C7811D08D1F400622E7C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		3D045138AD228BE07225D273 /* Pods-DRYTestUtilities.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DRYTestUtilities.release.xcconfig"; path = "Pods/Target Support Files/Pods-DRYTestUtilities/Pods-DRYTestUtilities.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* DRYTestUtilities.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DRYTestUtilities.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -33,7 +32,6 @@
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		6003F591195388D20070C39A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		6003F5AE195388D20070C39A /* DRYTestUtilities.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DRYTestUtilities.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		6003F5B7195388D20070C39A /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
@@ -92,11 +90,9 @@
 			isa = PBXGroup;
 			children = (
 				27B6C7811D08D1F400622E7C /* XCTest.framework */,
-				27B6C77F1D08D17600622E7C /* Xcode.app */,
 				6003F58D195388D20070C39A /* Foundation.framework */,
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
-				6003F5AF195388D20070C39A /* XCTest.framework */,
 				C9CF7A353D9CCE249DD6F01D /* libPods-DRYTestUtilities.a */,
 			);
 			name = Frameworks;
@@ -354,10 +350,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 76DCD47A7E0D4CF693E18C79 /* Pods-DRYTestUtilities.debug.xcconfig */;
 			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Tests/Tests-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -376,10 +369,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3D045138AD228BE07225D273 /* Pods-DRYTestUtilities.release.xcconfig */;
 			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Tests/Tests-Prefix.pch";
 				INFOPLIST_FILE = "Tests/Tests-Info.plist";
