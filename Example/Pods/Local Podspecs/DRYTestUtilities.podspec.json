@@ -21,5 +21,8 @@
     "DRYUtilities": [
 
     ]
+  },
+  "user_target_xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PLATFORM_DIR)/Developer/Library/Frameworks"
   }
 }
