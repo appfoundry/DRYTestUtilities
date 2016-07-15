@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "DRYTestUtilities"
-  s.version          = "1.0.0"
+  s.version          = "1.1.0"
   s.summary          = "AppFoundry test utilities"
   s.homepage         = "https://github.com/appfoundry/DRYTestUtilities"
   s.license          = 'MIT'
@@ -19,12 +19,17 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '7.0'
   s.requires_arc = true
 
-  s.source_files = 'Pod/Classes/*'
   s.frameworks = 'XCTest'
-  s.dependency 'DRYUtilities'
+  s.user_target_xcconfig = { 'FRAMEWORK_SEARCH_PATHS' => '$(PLATFORM_DIR)/Developer/Library/Frameworks' }
+
+  s.subspec 'Core' do |c|
+    c.source_files = 'Pod/Classes/Core/*'
+    c.dependency 'DRYUtilities'
+  end
 
   s.subspec 'OCMockitoSupport' do |ocms|
+    ocms.dependency 'DRYTestUtilities/Core'
     ocms.dependency 'OCMockito'
-    ocms.source_files = 'Pod/Classes/OCMockitoSupport'
+    ocms.source_files = 'Pod/Classes/OCMockitoSupport/*'
   end
 end

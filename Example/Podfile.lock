@@ -1,9 +1,11 @@
 PODS:
-  - DRYTestUtilities (1.0.0):
-    - DRYTestUtilities/OCMockitoSupport (= 1.0.0)
+  - DRYTestUtilities (1.1.0):
+    - DRYTestUtilities/Core (= 1.1.0)
+    - DRYTestUtilities/OCMockitoSupport (= 1.1.0)
+  - DRYTestUtilities/Core (1.1.0):
     - DRYUtilities
-  - DRYTestUtilities/OCMockitoSupport (1.0.0):
-    - DRYUtilities
+  - DRYTestUtilities/OCMockitoSupport (1.1.0):
+    - DRYTestUtilities/Core
     - OCMockito
   - DRYUtilities (1.6.0):
     - DRYUtilities/Configuration (= 1.6.0)
@@ -31,7 +33,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  DRYTestUtilities: 294f39ba12ddb067631c7f31efdaa902efff098b
+  DRYTestUtilities: b90192dad18586053a0d85f93fc9087f2d74e46f
   DRYUtilities: 45ac8f66e01b8d95b69ff05dee0b428d348ae5e7
   OCHamcrest: 5c1d441c5a82fb18ac17c2aeb52ec1a99edb971b
   OCMockito: 2cb6c2267cbc76537be56281cd47cdb5a7c27541

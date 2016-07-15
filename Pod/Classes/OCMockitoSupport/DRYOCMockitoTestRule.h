@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "DRYTestRule.h"
+#import <DRYTestUtilities/DRYTestRule.h>
 
 @interface DRYOCMockitoTestRule : NSObject<DRYTestRule>
 
