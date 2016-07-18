@@ -12,6 +12,7 @@
 		2753AAC61AD4961200EB5D16 /* DRYParameterProviderParametersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2753AAC51AD4961200EB5D16 /* DRYParameterProviderParametersTests.m */; };
 		27B6C77E1D08604A00622E7C /* DRYMultipleParameterMethodsTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 27B6C77D1D08604A00622E7C /* DRYMultipleParameterMethodsTest.m */; };
 		27B6C7821D08D1F500622E7C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27B6C7811D08D1F400622E7C /* XCTest.framework */; };
+		3323F4B26F033A9EE7C2DE93 /* DRYRuleBasedSimpleRuleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3323F0D2D163B87707ECCE24 /* DRYRuleBasedSimpleRuleTests.m */; };
 		44B8197AF5156E6A587731BF /* libPods-DRYTestUtilities.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C9CF7A353D9CCE249DD6F01D /* libPods-DRYTestUtilities.a */; };
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -26,6 +27,7 @@
 		2753AAC51AD4961200EB5D16 /* DRYParameterProviderParametersTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DRYParameterProviderParametersTests.m; sourceTree = "<group>"; };
 		27B6C77D1D08604A00622E7C /* DRYMultipleParameterMethodsTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DRYMultipleParameterMethodsTest.m; sourceTree = "<group>"; };
 		27B6C7811D08D1F400622E7C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		3323F0D2D163B87707ECCE24 /* DRYRuleBasedSimpleRuleTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DRYRuleBasedSimpleRuleTests.m; sourceTree = "<group>"; };
 		3D045138AD228BE07225D273 /* Pods-DRYTestUtilities.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DRYTestUtilities.release.xcconfig"; path = "Pods/Target Support Files/Pods-DRYTestUtilities/Pods-DRYTestUtilities.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* DRYTestUtilities.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DRYTestUtilities.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -107,6 +109,7 @@
 				2753AAC51AD4961200EB5D16 /* DRYParameterProviderParametersTests.m */,
 				E59C7B0F1B667DD200112175 /* DRYFakeHTTPSessionManagerTest.m */,
 				27B6C77D1D08604A00622E7C /* DRYMultipleParameterMethodsTest.m */,
+				3323F0D2D163B87707ECCE24 /* DRYRuleBasedSimpleRuleTests.m */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
@@ -256,6 +259,7 @@
 				2753AAC21AD493D800EB5D16 /* DRYArrayParametersTests.m in Sources */,
 				27B6C77E1D08604A00622E7C /* DRYMultipleParameterMethodsTest.m in Sources */,
 				E59C7B101B667DD200112175 /* DRYFakeHTTPSessionManagerTest.m in Sources */,
+				3323F4B26F033A9EE7C2DE93 /* DRYRuleBasedSimpleRuleTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

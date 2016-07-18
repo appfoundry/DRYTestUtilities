@@ -31,3 +31,4 @@ DerivedData
 #
 Pods/
 Example/DRYTestUtilities.xcworkspace
+Example/.idea
