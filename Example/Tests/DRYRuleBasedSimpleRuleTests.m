@@ -20,13 +20,19 @@
 
 @end
 
+@interface CanIBeInjectedWithMocksHelper : NSObject
+
+@property (nonatomic, strong) NSObject *fakeObject;
+
+@end
 
 @interface DRYRuleBasedSimpleRuleTests : DRYRuleBasedTestCase
 
 @property (nonatomic, strong) NSObject<UITableViewDelegate> *mockedTableViewDelegateAsObject;
 @property (nonatomic, strong) id<UITableViewDelegate> mockedTableViewDelegate;
 @property (nonatomic, strong) NSObject *mockSomeObject;
-@property (nonatomic, strong) UIView *view;
+@property (nonatomic, strong) CanIBeInjectedWithMocksHelper *helper;
+@property (nonatomic, strong) NSObject *fakeObject;
 
 @property (nonatomic, strong) SimpleRule *rule;
 @property (nonatomic, strong) DRYOCMockitoTestRule *mockitoRule;
@@ -50,7 +56,8 @@
 - (NSArray *)testRules {
     self.rule = [[SimpleRule alloc] initWithValueSetBeforeTest:@"before" andValueSetAfterTest:@"after"];
     self.mockitoRule = [DRYOCMockitoTestRule mockitoTestRule];
-    return @[_rule, _mockitoRule];
+    
+    return @[_rule, _mockitoRule, [DRYOCMockitoTestRule mockitoTestRultWithMockedPropertyPrefix:@"fake"]];
 }
 
 - (void)testMocksAreInjected {
@@ -60,14 +67,18 @@
 }
 
 - (void)testRuleDoesNotInjectNonPrefixedStuff {
-    XCTAssertNil(self.view);
+    XCTAssertNil(self.helper);
 }
 
 - (void)testRuleSucceededInInjectingView {
-    self.view = [[UIView alloc] init];
-    [_mockitoRule injectMocksIntoPropertiesWithPrefix:@"accessibility" ofObject:self.view];
-    XCTAssertNotNil(self.view.accessibilityIdentifier);
-    XCTAssertEqual([MKTObjectMock class], [self.view.accessibilityIdentifier class]);
+    self.helper = [[CanIBeInjectedWithMocksHelper alloc] init];
+    [_mockitoRule injectMocksIntoPropertiesWithPrefix:@"fake" ofObject:self.helper];
+    XCTAssertNotNil(self.helper.fakeObject);
+    XCTAssertEqual([MKTObjectMock class], [self.helper.fakeObject class]);
+}
+
+- (void)testRuleSucceededInInjectingFakePrefixedProperties {
+    XCTAssertNotNil(self.fakeObject);
 }
 
 @end
@@ -100,4 +111,7 @@
 }
 
 
+@end
+
+@implementation CanIBeInjectedWithMocksHelper
 @end

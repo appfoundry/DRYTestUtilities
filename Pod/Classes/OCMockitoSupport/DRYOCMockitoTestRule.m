@@ -24,9 +24,6 @@
 @property (nonatomic, strong, readonly) Class mockedClass;
 @end
 
-
-
-
 @interface MKTOngoingStubbing (IKnowWhatIsGoingOnBehindTheScences)
 @property (nonatomic, readonly) MKTInvocationContainer *invocationContainer;
 @end
@@ -37,13 +34,29 @@
     return [[self alloc] init];
 }
 
++ (instancetype)mockitoTestRultWithMockedPropertyPrefix:(NSString *)mockedPropertyPrefix {
+    return [[self alloc] initWithMockedPropertyPrefix:mockedPropertyPrefix];
+}
+
+- (instancetype)init {
+    return [self initWithMockedPropertyPrefix:@"mock"];
+}
+
+- (instancetype)initWithMockedPropertyPrefix:(NSString *)mockedPropertyPrefix {
+    self = [super init];
+    if (self) {
+        _mockedPropertyPrefix = mockedPropertyPrefix;
+    }
+    return self;
+}
+
 - (void)before {
 
 }
 
 - (NSInvocation *)apply:(NSInvocation *)invocation {
     id test = invocation.target;
-    [self injectMocksIntoPropertiesWithPrefix:@"mock" ofObject:test];
+    [self injectMocksIntoPropertiesWithPrefix:self.mockedPropertyPrefix ofObject:test];
     return invocation;
 }
 

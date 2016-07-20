@@ -22,6 +22,13 @@
  */
 @interface DRYOCMockitoTestRule : NSObject<DRYTestRule>
 
+@property (nonatomic, strong, readonly) NSString *mockedPropertyPrefix;
+
+- (instancetype)initWithMockedPropertyPrefix:(NSString *)mockedPropertyPrefix;
+
++ (instancetype)mockitoTestRultWithMockedPropertyPrefix:(NSString *)mockedPropertyPrefix;
+
+
 /**
  Creates a DRYOCMockitoTestRule instance.
  */
