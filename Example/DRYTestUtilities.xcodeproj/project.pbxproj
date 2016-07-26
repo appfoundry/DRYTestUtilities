@@ -10,6 +10,7 @@
 		2753AAC21AD493D800EB5D16 /* DRYArrayParametersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2753AAC11AD493D800EB5D16 /* DRYArrayParametersTests.m */; };
 		2753AAC41AD4953100EB5D16 /* DRYDictionaryParamersTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 2753AAC31AD4953100EB5D16 /* DRYDictionaryParamersTest.m */; };
 		2753AAC61AD4961200EB5D16 /* DRYParameterProviderParametersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2753AAC51AD4961200EB5D16 /* DRYParameterProviderParametersTests.m */; };
+		27B3B6561D47C8D1008209B0 /* DRYNoParametersParameteridTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 27B3B6551D47C8D1008209B0 /* DRYNoParametersParameteridTests.m */; };
 		27B6C77E1D08604A00622E7C /* DRYMultipleParameterMethodsTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 27B6C77D1D08604A00622E7C /* DRYMultipleParameterMethodsTest.m */; };
 		27B6C7821D08D1F500622E7C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27B6C7811D08D1F400622E7C /* XCTest.framework */; };
 		3323F4B26F033A9EE7C2DE93 /* DRYRuleBasedSimpleRuleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3323F0D2D163B87707ECCE24 /* DRYRuleBasedSimpleRuleTests.m */; };
@@ -25,6 +26,7 @@
 		2753AAC11AD493D800EB5D16 /* DRYArrayParametersTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DRYArrayParametersTests.m; sourceTree = "<group>"; };
 		2753AAC31AD4953100EB5D16 /* DRYDictionaryParamersTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DRYDictionaryParamersTest.m; sourceTree = "<group>"; };
 		2753AAC51AD4961200EB5D16 /* DRYParameterProviderParametersTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DRYParameterProviderParametersTests.m; sourceTree = "<group>"; };
+		27B3B6551D47C8D1008209B0 /* DRYNoParametersParameteridTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DRYNoParametersParameteridTests.m; sourceTree = "<group>"; };
 		27B6C77D1D08604A00622E7C /* DRYMultipleParameterMethodsTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DRYMultipleParameterMethodsTest.m; sourceTree = "<group>"; };
 		27B6C7811D08D1F400622E7C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		3323F0D2D163B87707ECCE24 /* DRYRuleBasedSimpleRuleTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DRYRuleBasedSimpleRuleTests.m; sourceTree = "<group>"; };
@@ -110,6 +112,7 @@
 				E59C7B0F1B667DD200112175 /* DRYFakeHTTPSessionManagerTest.m */,
 				27B6C77D1D08604A00622E7C /* DRYMultipleParameterMethodsTest.m */,
 				3323F0D2D163B87707ECCE24 /* DRYRuleBasedSimpleRuleTests.m */,
+				27B3B6551D47C8D1008209B0 /* DRYNoParametersParameteridTests.m */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
@@ -257,6 +260,7 @@
 				2753AAC41AD4953100EB5D16 /* DRYDictionaryParamersTest.m in Sources */,
 				2753AAC61AD4961200EB5D16 /* DRYParameterProviderParametersTests.m in Sources */,
 				2753AAC21AD493D800EB5D16 /* DRYArrayParametersTests.m in Sources */,
+				27B3B6561D47C8D1008209B0 /* DRYNoParametersParameteridTests.m in Sources */,
 				27B6C77E1D08604A00622E7C /* DRYMultipleParameterMethodsTest.m in Sources */,
 				E59C7B101B667DD200112175 /* DRYFakeHTTPSessionManagerTest.m in Sources */,
 				3323F4B26F033A9EE7C2DE93 /* DRYRuleBasedSimpleRuleTests.m in Sources */,

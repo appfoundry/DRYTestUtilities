@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "DRYTestUtilities"
-  s.version          = "1.0.0"
+  s.version          = "1.0.1"
   s.summary          = "AppFoundry test utilities"
   s.homepage         = "https://github.com/appfoundry/DRYTestUtilities"
   s.license          = 'MIT'

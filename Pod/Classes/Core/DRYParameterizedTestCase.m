@@ -19,20 +19,12 @@
     
     SEL parameterSel = @selector(parameters);
     if (![self respondsToSelector:parameterSel]) {
-        return nil;
+        return [super testInvocations];
     }
-    
     
     NSArray *params = [self parameters];
-    
-    
-    
     NSMutableArray *invocations = [[NSMutableArray alloc] init];
     [self _addInvocationsForClass:self withParams:params toInvocations:invocations];
-    
-    if (invocations.count == 0) {
-        @throw [NSException exceptionWithName:@"DRYParameterizedTestCaseException" reason:[NSString stringWithFormat:@"You should provide at least one instance method starting with testWithParamer, having 1 parameter in your parametirzed test class %@!", self] userInfo:nil];
-    }
     return [[super testInvocations] arrayByAddingObjectsFromArray:invocations];
 }
 
